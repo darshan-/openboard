@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.keyboard;
+package com.darshancomputing.openboard.inputmethod.keyboard;
 
 /**
  * This class handles key detection.

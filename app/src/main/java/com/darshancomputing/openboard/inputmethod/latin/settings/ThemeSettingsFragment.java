@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.settings;
+package com.darshancomputing.openboard.inputmethod.latin.settings;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -22,9 +22,9 @@ import android.os.Bundle;
 import android.preference.Preference;
 import android.preference.PreferenceScreen;
 
-import org.dslul.openboard.inputmethod.keyboard.KeyboardTheme;
-import org.dslul.openboard.inputmethod.latin.R;
-import org.dslul.openboard.inputmethod.latin.settings.RadioButtonPreference.OnRadioButtonClickedListener;
+import com.darshancomputing.openboard.inputmethod.keyboard.KeyboardTheme;
+import com.darshancomputing.openboard.inputmethod.latin.R;
+import com.darshancomputing.openboard.inputmethod.latin.settings.RadioButtonPreference.OnRadioButtonClickedListener;
 
 /**
  * "Keyboard theme" settings sub screen.

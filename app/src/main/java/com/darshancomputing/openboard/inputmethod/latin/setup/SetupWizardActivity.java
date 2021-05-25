@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.setup;
+package com.darshancomputing.openboard.inputmethod.latin.setup;
 
 import android.app.Activity;
 import android.content.ContentResolver;
@@ -33,10 +33,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.VideoView;
 
-import org.dslul.openboard.inputmethod.latin.R;
-import org.dslul.openboard.inputmethod.latin.settings.SettingsActivity;
-import org.dslul.openboard.inputmethod.latin.utils.LeakGuardHandlerWrapper;
-import org.dslul.openboard.inputmethod.latin.utils.UncachedInputMethodManagerUtils;
+import com.darshancomputing.openboard.inputmethod.latin.R;
+import com.darshancomputing.openboard.inputmethod.latin.settings.SettingsActivity;
+import com.darshancomputing.openboard.inputmethod.latin.utils.LeakGuardHandlerWrapper;
+import com.darshancomputing.openboard.inputmethod.latin.utils.UncachedInputMethodManagerUtils;
 
 import java.util.ArrayList;
 

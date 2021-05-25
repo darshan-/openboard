@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.utils;
+package com.darshancomputing.openboard.inputmethod.latin.utils;
 
 import android.content.Context;
 
-import org.dslul.openboard.inputmethod.latin.R;
+import com.darshancomputing.openboard.inputmethod.latin.R;
 
 /**
  * Helper class to get the metadata URI and the additional ID.

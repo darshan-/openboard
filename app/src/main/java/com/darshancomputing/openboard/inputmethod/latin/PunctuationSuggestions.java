@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin;
+package com.darshancomputing.openboard.inputmethod.latin;
 
-import org.dslul.openboard.inputmethod.keyboard.internal.KeySpecParser;
-import org.dslul.openboard.inputmethod.latin.common.Constants;
-import org.dslul.openboard.inputmethod.latin.common.StringUtils;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.KeySpecParser;
+import com.darshancomputing.openboard.inputmethod.latin.common.Constants;
+import com.darshancomputing.openboard.inputmethod.latin.common.StringUtils;
 
 import java.util.ArrayList;
 import java.util.Arrays;

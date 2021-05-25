@@ -1,4 +1,4 @@
-package org.dslul.openboard.inputmethod.dictionarypack
+package com.darshancomputing.openboard.inputmethod.dictionarypack
 
 /**
  * A class to group constants for dictionary pack usage.
@@ -12,7 +12,7 @@ object DictionaryPackConstants {
      * The root domain for the dictionary pack, upon which authorities and actions will append
      * their own distinctive strings.
      */
-    private const val DICTIONARY_DOMAIN = "org.dslul.openboard.inputmethod.dictionarypack.aosp"
+    private const val DICTIONARY_DOMAIN = "com.darshancomputing.openboard.inputmethod.dictionarypack.aosp"
     /**
      * Authority for the ContentProvider protocol.
      */

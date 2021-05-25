@@ -1,8 +1,8 @@
-package org.dslul.openboard.inputmethod.compat
+package com.darshancomputing.openboard.inputmethod.compat
 
 import android.view.inputmethod.InputConnection
-import org.dslul.openboard.inputmethod.compat.CompatUtils.ClassWrapper
-import org.dslul.openboard.inputmethod.compat.CompatUtils.ToBooleanMethodWrapper
+import com.darshancomputing.openboard.inputmethod.compat.CompatUtils.ClassWrapper
+import com.darshancomputing.openboard.inputmethod.compat.CompatUtils.ToBooleanMethodWrapper
 
 object InputConnectionCompatUtils {
     private var sInputConnectionType: ClassWrapper? = null

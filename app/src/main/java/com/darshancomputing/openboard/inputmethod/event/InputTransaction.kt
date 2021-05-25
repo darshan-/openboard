@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.dslul.openboard.inputmethod.event
+package com.darshancomputing.openboard.inputmethod.event
 
-import org.dslul.openboard.inputmethod.latin.settings.SettingsValues
+import com.darshancomputing.openboard.inputmethod.latin.settings.SettingsValues
 
 /**
  * An object encapsulating a single transaction for input.

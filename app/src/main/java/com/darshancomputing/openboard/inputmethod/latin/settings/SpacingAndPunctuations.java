@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.settings;
+package com.darshancomputing.openboard.inputmethod.latin.settings;
 
 import android.content.res.Resources;
 
-import org.dslul.openboard.inputmethod.annotations.UsedForTesting;
-import org.dslul.openboard.inputmethod.keyboard.internal.MoreKeySpec;
-import org.dslul.openboard.inputmethod.latin.PunctuationSuggestions;
-import org.dslul.openboard.inputmethod.latin.R;
-import org.dslul.openboard.inputmethod.latin.common.Constants;
-import org.dslul.openboard.inputmethod.latin.common.StringUtils;
+import com.darshancomputing.openboard.inputmethod.annotations.UsedForTesting;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.MoreKeySpec;
+import com.darshancomputing.openboard.inputmethod.latin.PunctuationSuggestions;
+import com.darshancomputing.openboard.inputmethod.latin.R;
+import com.darshancomputing.openboard.inputmethod.latin.common.Constants;
+import com.darshancomputing.openboard.inputmethod.latin.common.StringUtils;
 
 import java.util.Arrays;
 import java.util.Locale;

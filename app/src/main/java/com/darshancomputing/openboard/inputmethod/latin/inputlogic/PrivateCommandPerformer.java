@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.inputlogic;
+package com.darshancomputing.openboard.inputmethod.latin.inputlogic;
 
 import android.os.Bundle;
 

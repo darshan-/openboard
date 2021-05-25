@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.utils;
+package com.darshancomputing.openboard.inputmethod.latin.utils;
 
-import org.dslul.openboard.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
-import org.dslul.openboard.inputmethod.latin.define.ProductionFlags;
+import com.darshancomputing.openboard.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
+import com.darshancomputing.openboard.inputmethod.latin.define.ProductionFlags;
 
 import java.util.ArrayList;
 import java.util.Collection;

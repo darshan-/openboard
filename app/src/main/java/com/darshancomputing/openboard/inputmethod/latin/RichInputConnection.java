@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin;
+package com.darshancomputing.openboard.inputmethod.latin;
 
 import android.inputmethodservice.InputMethodService;
 import android.os.Bundle;
@@ -31,19 +31,19 @@ import android.view.inputmethod.ExtractedTextRequest;
 import android.view.inputmethod.InputConnection;
 import android.view.inputmethod.InputMethodManager;
 
-import org.dslul.openboard.inputmethod.compat.InputConnectionCompatUtils;
-import org.dslul.openboard.inputmethod.latin.common.Constants;
-import org.dslul.openboard.inputmethod.latin.common.StringUtils;
-import org.dslul.openboard.inputmethod.latin.common.UnicodeSurrogate;
-import org.dslul.openboard.inputmethod.latin.inputlogic.PrivateCommandPerformer;
-import org.dslul.openboard.inputmethod.latin.settings.SpacingAndPunctuations;
-import org.dslul.openboard.inputmethod.latin.utils.CapsModeUtils;
-import org.dslul.openboard.inputmethod.latin.utils.DebugLogUtils;
-import org.dslul.openboard.inputmethod.latin.utils.NgramContextUtils;
-import org.dslul.openboard.inputmethod.latin.utils.ScriptUtils;
-import org.dslul.openboard.inputmethod.latin.utils.SpannableStringUtils;
-import org.dslul.openboard.inputmethod.latin.utils.StatsUtils;
-import org.dslul.openboard.inputmethod.latin.utils.TextRange;
+import com.darshancomputing.openboard.inputmethod.compat.InputConnectionCompatUtils;
+import com.darshancomputing.openboard.inputmethod.latin.common.Constants;
+import com.darshancomputing.openboard.inputmethod.latin.common.StringUtils;
+import com.darshancomputing.openboard.inputmethod.latin.common.UnicodeSurrogate;
+import com.darshancomputing.openboard.inputmethod.latin.inputlogic.PrivateCommandPerformer;
+import com.darshancomputing.openboard.inputmethod.latin.settings.SpacingAndPunctuations;
+import com.darshancomputing.openboard.inputmethod.latin.utils.CapsModeUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.DebugLogUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.NgramContextUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.ScriptUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.SpannableStringUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.StatsUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.TextRange;
 
 import java.util.concurrent.TimeUnit;
 
@@ -319,7 +319,7 @@ public final class RichInputConnection implements PrivateCommandPerformer {
                 final int spanFlags = mTempObjectForCommitText.getSpanFlags(span);
                 // We have to adjust the end of the span to include an additional character.
                 // This is to avoid splitting a unicode surrogate pair.
-                // See org.dslul.openboard.inputmethod.latin.common.Constants.UnicodeSurrogate
+                // See com.darshancomputing.openboard.inputmethod.latin.common.Constants.UnicodeSurrogate
                 // See https://b.corp.google.com/issues/19255233
                 if (0 < spanEnd && spanEnd < mTempObjectForCommitText.length()) {
                     final char spanEndChar = mTempObjectForCommitText.charAt(spanEnd - 1);

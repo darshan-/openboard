@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin;
+package com.darshancomputing.openboard.inputmethod.latin;
 
 import android.content.ContentProviderClient;
 import android.content.ContentResolver;
@@ -27,11 +27,11 @@ import android.os.RemoteException;
 import android.text.TextUtils;
 import android.util.Log;
 
-import org.dslul.openboard.inputmethod.dictionarypack.DictionaryPackConstants;
-import org.dslul.openboard.inputmethod.latin.define.DecoderSpecificConstants;
-import org.dslul.openboard.inputmethod.latin.utils.DictionaryInfoUtils;
-import org.dslul.openboard.inputmethod.latin.utils.DictionaryInfoUtils.DictionaryInfo;
-import org.dslul.openboard.inputmethod.latin.utils.MetadataFileUriGetter;
+import com.darshancomputing.openboard.inputmethod.dictionarypack.DictionaryPackConstants;
+import com.darshancomputing.openboard.inputmethod.latin.define.DecoderSpecificConstants;
+import com.darshancomputing.openboard.inputmethod.latin.utils.DictionaryInfoUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.DictionaryInfoUtils.DictionaryInfo;
+import com.darshancomputing.openboard.inputmethod.latin.utils.MetadataFileUriGetter;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;

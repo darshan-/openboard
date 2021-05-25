@@ -14,7 +14,7 @@
  * limitations under the License
  */
 
-package org.dslul.openboard.inputmethod.latin.permissions;
+package com.darshancomputing.openboard.inputmethod.latin.permissions;
 
 
 import android.app.Activity;

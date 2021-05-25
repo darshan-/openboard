@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.common;
+package com.darshancomputing.openboard.inputmethod.latin.common;
 
 import android.renderscript.Script;
 
-import org.dslul.openboard.inputmethod.annotations.UsedForTesting;
-import org.dslul.openboard.inputmethod.latin.utils.ScriptUtils;
+import com.darshancomputing.openboard.inputmethod.annotations.UsedForTesting;
+import com.darshancomputing.openboard.inputmethod.latin.utils.ScriptUtils;
 
 import java.util.ArrayList;
 import java.util.Arrays;

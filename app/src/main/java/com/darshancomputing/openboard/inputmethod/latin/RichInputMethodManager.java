@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin;
+package com.darshancomputing.openboard.inputmethod.latin;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -27,14 +27,14 @@ import android.view.inputmethod.InputMethodInfo;
 import android.view.inputmethod.InputMethodManager;
 import android.view.inputmethod.InputMethodSubtype;
 
-import org.dslul.openboard.inputmethod.annotations.UsedForTesting;
-import org.dslul.openboard.inputmethod.compat.InputMethodManagerCompatWrapper;
-import org.dslul.openboard.inputmethod.compat.InputMethodSubtypeCompatUtils;
-import org.dslul.openboard.inputmethod.latin.settings.Settings;
-import org.dslul.openboard.inputmethod.latin.utils.AdditionalSubtypeUtils;
-import org.dslul.openboard.inputmethod.latin.utils.DeviceProtectedUtils;
-import org.dslul.openboard.inputmethod.latin.utils.LanguageOnSpacebarUtils;
-import org.dslul.openboard.inputmethod.latin.utils.SubtypeLocaleUtils;
+import com.darshancomputing.openboard.inputmethod.annotations.UsedForTesting;
+import com.darshancomputing.openboard.inputmethod.compat.InputMethodManagerCompatWrapper;
+import com.darshancomputing.openboard.inputmethod.compat.InputMethodSubtypeCompatUtils;
+import com.darshancomputing.openboard.inputmethod.latin.settings.Settings;
+import com.darshancomputing.openboard.inputmethod.latin.utils.AdditionalSubtypeUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.DeviceProtectedUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.LanguageOnSpacebarUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.SubtypeLocaleUtils;
 
 import java.util.Collections;
 import java.util.HashMap;
@@ -47,7 +47,7 @@ import java.util.Set;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
-import static org.dslul.openboard.inputmethod.latin.common.Constants.Subtype.KEYBOARD_MODE;
+import static com.darshancomputing.openboard.inputmethod.latin.common.Constants.Subtype.KEYBOARD_MODE;
 
 /**
  * Enrichment class for InputMethodManager to simplify interaction and add functionality.

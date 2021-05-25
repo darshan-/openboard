@@ -1,4 +1,4 @@
-package org.dslul.openboard.inputmethod.latin.define
+package com.darshancomputing.openboard.inputmethod.latin.define
 
 /**
  * Decoder specific constants for LatinIme.

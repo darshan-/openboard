@@ -1,10 +1,10 @@
-package org.dslul.openboard.inputmethod.accessibility
+package com.darshancomputing.openboard.inputmethod.accessibility
 
 import android.content.Context
 import android.os.Handler
 import android.os.Message
-import org.dslul.openboard.inputmethod.keyboard.Key
-import org.dslul.openboard.inputmethod.latin.R
+import com.darshancomputing.openboard.inputmethod.keyboard.Key
+import com.darshancomputing.openboard.inputmethod.latin.R
 
 // Handling long press timer to show a more keys keyboard.
 internal class AccessibilityLongPressTimer(private val mCallback: LongPressTimerCallback,

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.keyboard.internal;
+package com.darshancomputing.openboard.inputmethod.keyboard.internal;
 
 import android.content.res.TypedArray;
 import android.graphics.Bitmap;
@@ -27,7 +27,7 @@ import android.graphics.Rect;
 import android.os.Handler;
 import android.util.SparseArray;
 
-import org.dslul.openboard.inputmethod.keyboard.PointerTracker;
+import com.darshancomputing.openboard.inputmethod.keyboard.PointerTracker;
 
 /**
  * Draw preview graphics of multiple gesture trails during gesture input.

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin;
+package com.darshancomputing.openboard.inputmethod.latin;
 
 import android.content.Context;
 import android.graphics.Rect;
@@ -23,10 +23,10 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import org.dslul.openboard.inputmethod.accessibility.AccessibilityUtils;
-import org.dslul.openboard.inputmethod.keyboard.MainKeyboardView;
-import org.dslul.openboard.inputmethod.latin.suggestions.MoreSuggestionsView;
-import org.dslul.openboard.inputmethod.latin.suggestions.SuggestionStripView;
+import com.darshancomputing.openboard.inputmethod.accessibility.AccessibilityUtils;
+import com.darshancomputing.openboard.inputmethod.keyboard.MainKeyboardView;
+import com.darshancomputing.openboard.inputmethod.latin.suggestions.MoreSuggestionsView;
+import com.darshancomputing.openboard.inputmethod.latin.suggestions.SuggestionStripView;
 
 public final class InputView extends FrameLayout {
     private final Rect mInputViewRect = new Rect();

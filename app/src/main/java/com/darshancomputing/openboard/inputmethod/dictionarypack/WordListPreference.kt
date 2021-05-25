@@ -1,4 +1,4 @@
-package org.dslul.openboard.inputmethod.dictionarypack
+package com.darshancomputing.openboard.inputmethod.dictionarypack
 
 import android.content.Context
 import android.preference.Preference
@@ -6,7 +6,7 @@ import android.util.Log
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ListView
-import org.dslul.openboard.inputmethod.latin.R
+import com.darshancomputing.openboard.inputmethod.latin.R
 import java.util.*
 
 /**

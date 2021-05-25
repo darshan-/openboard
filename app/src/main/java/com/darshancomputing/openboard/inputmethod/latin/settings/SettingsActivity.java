@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.settings;
+package com.darshancomputing.openboard.inputmethod.latin.settings;
 
 import android.app.ActionBar;
 import android.content.Intent;
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
 
-import org.dslul.openboard.inputmethod.latin.permissions.PermissionsManager;
-import org.dslul.openboard.inputmethod.latin.utils.FragmentUtils;
+import com.darshancomputing.openboard.inputmethod.latin.permissions.PermissionsManager;
+import com.darshancomputing.openboard.inputmethod.latin.utils.FragmentUtils;
 
 import androidx.core.app.ActivityCompat;
 

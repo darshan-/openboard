@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.dslul.openboard.inputmethod.event
+package com.darshancomputing.openboard.inputmethod.event
 
 import android.view.KeyCharacterMap
 import android.view.KeyEvent
-import org.dslul.openboard.inputmethod.latin.common.Constants
+import com.darshancomputing.openboard.inputmethod.latin.common.Constants
 
 /**
  * A hardware event decoder for a hardware qwerty-ish keyboard.

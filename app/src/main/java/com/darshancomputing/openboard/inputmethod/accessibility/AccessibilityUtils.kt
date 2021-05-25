@@ -1,4 +1,4 @@
-package org.dslul.openboard.inputmethod.accessibility
+package com.darshancomputing.openboard.inputmethod.accessibility
 
 import android.content.Context
 import android.media.AudioManager
@@ -13,9 +13,9 @@ import android.view.accessibility.AccessibilityEvent
 import android.view.accessibility.AccessibilityManager
 import android.view.inputmethod.EditorInfo
 import androidx.core.view.accessibility.AccessibilityEventCompat
-import org.dslul.openboard.inputmethod.latin.R
-import org.dslul.openboard.inputmethod.latin.SuggestedWords
-import org.dslul.openboard.inputmethod.latin.utils.InputTypeUtils
+import com.darshancomputing.openboard.inputmethod.latin.R
+import com.darshancomputing.openboard.inputmethod.latin.SuggestedWords
+import com.darshancomputing.openboard.inputmethod.latin.utils.InputTypeUtils
 
 class AccessibilityUtils private constructor() {
     private var mContext: Context? = null

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.settings;
+package com.darshancomputing.openboard.inputmethod.latin.settings;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -24,15 +24,15 @@ import android.content.res.Resources;
 import android.util.Log;
 import android.view.inputmethod.EditorInfo;
 
-import org.dslul.openboard.inputmethod.compat.AppWorkaroundsUtils;
-import org.dslul.openboard.inputmethod.latin.InputAttributes;
-import org.dslul.openboard.inputmethod.latin.R;
-import org.dslul.openboard.inputmethod.latin.RichInputMethodManager;
-import org.dslul.openboard.inputmethod.latin.common.StringUtils;
-import org.dslul.openboard.inputmethod.latin.utils.AsyncResultHolder;
-import org.dslul.openboard.inputmethod.latin.utils.ResourceUtils;
-import org.dslul.openboard.inputmethod.latin.utils.ScriptUtils;
-import org.dslul.openboard.inputmethod.latin.utils.TargetPackageInfoGetterTask;
+import com.darshancomputing.openboard.inputmethod.compat.AppWorkaroundsUtils;
+import com.darshancomputing.openboard.inputmethod.latin.InputAttributes;
+import com.darshancomputing.openboard.inputmethod.latin.R;
+import com.darshancomputing.openboard.inputmethod.latin.RichInputMethodManager;
+import com.darshancomputing.openboard.inputmethod.latin.common.StringUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.AsyncResultHolder;
+import com.darshancomputing.openboard.inputmethod.latin.utils.ResourceUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.ScriptUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.TargetPackageInfoGetterTask;
 
 import java.util.Arrays;
 import java.util.Locale;
@@ -42,7 +42,7 @@ import javax.annotation.Nullable;
 
 /**
  * When you call the constructor of this class, you may want to change the current system locale by
- * using {@link org.dslul.openboard.inputmethod.latin.utils.RunInLocale}.
+ * using {@link com.darshancomputing.openboard.inputmethod.latin.utils.RunInLocale}.
  */
 // Non-final for testing via mock library.
 public class SettingsValues {

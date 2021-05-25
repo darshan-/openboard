@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.utils;
+package com.darshancomputing.openboard.inputmethod.latin.utils;
 
 import android.util.Log;
 
-import org.dslul.openboard.inputmethod.latin.define.JniLibName;
+import com.darshancomputing.openboard.inputmethod.latin.define.JniLibName;
 
 public final class JniUtils {
     private static final String TAG = JniUtils.class.getSimpleName();

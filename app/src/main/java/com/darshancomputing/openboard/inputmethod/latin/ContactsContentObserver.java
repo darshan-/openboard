@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin;
+package com.darshancomputing.openboard.inputmethod.latin;
 
 import android.Manifest;
 import android.content.ContentResolver;
@@ -24,10 +24,10 @@ import android.os.SystemClock;
 import android.provider.ContactsContract.Contacts;
 import android.util.Log;
 
-import org.dslul.openboard.inputmethod.latin.ContactsManager.ContactsChangedListener;
-import org.dslul.openboard.inputmethod.latin.define.DebugFlags;
-import org.dslul.openboard.inputmethod.latin.permissions.PermissionsUtil;
-import org.dslul.openboard.inputmethod.latin.utils.ExecutorUtils;
+import com.darshancomputing.openboard.inputmethod.latin.ContactsManager.ContactsChangedListener;
+import com.darshancomputing.openboard.inputmethod.latin.define.DebugFlags;
+import com.darshancomputing.openboard.inputmethod.latin.permissions.PermissionsUtil;
+import com.darshancomputing.openboard.inputmethod.latin.utils.ExecutorUtils;
 
 import java.util.ArrayList;
 import java.util.concurrent.atomic.AtomicBoolean;

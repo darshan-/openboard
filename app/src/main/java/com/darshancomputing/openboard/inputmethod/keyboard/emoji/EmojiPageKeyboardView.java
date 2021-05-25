@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.keyboard.emoji;
+package com.darshancomputing.openboard.inputmethod.keyboard.emoji;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -32,19 +32,19 @@ import android.view.ViewParent;
 import android.view.accessibility.AccessibilityEvent;
 
 import android.widget.FrameLayout;
-import org.dslul.openboard.inputmethod.accessibility.AccessibilityUtils;
-import org.dslul.openboard.inputmethod.accessibility.KeyboardAccessibilityDelegate;
-import org.dslul.openboard.inputmethod.keyboard.Key;
-import org.dslul.openboard.inputmethod.keyboard.KeyDetector;
-import org.dslul.openboard.inputmethod.keyboard.Keyboard;
-import org.dslul.openboard.inputmethod.keyboard.KeyboardView;
-import org.dslul.openboard.inputmethod.keyboard.MoreKeysKeyboard;
-import org.dslul.openboard.inputmethod.keyboard.MoreKeysKeyboardView;
-import org.dslul.openboard.inputmethod.keyboard.MoreKeysPanel;
-import org.dslul.openboard.inputmethod.keyboard.internal.MoreKeySpec;
-import org.dslul.openboard.inputmethod.latin.R;
-import org.dslul.openboard.inputmethod.latin.common.CoordinateUtils;
-import org.dslul.openboard.inputmethod.latin.settings.Settings;
+import com.darshancomputing.openboard.inputmethod.accessibility.AccessibilityUtils;
+import com.darshancomputing.openboard.inputmethod.accessibility.KeyboardAccessibilityDelegate;
+import com.darshancomputing.openboard.inputmethod.keyboard.Key;
+import com.darshancomputing.openboard.inputmethod.keyboard.KeyDetector;
+import com.darshancomputing.openboard.inputmethod.keyboard.Keyboard;
+import com.darshancomputing.openboard.inputmethod.keyboard.KeyboardView;
+import com.darshancomputing.openboard.inputmethod.keyboard.MoreKeysKeyboard;
+import com.darshancomputing.openboard.inputmethod.keyboard.MoreKeysKeyboardView;
+import com.darshancomputing.openboard.inputmethod.keyboard.MoreKeysPanel;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.MoreKeySpec;
+import com.darshancomputing.openboard.inputmethod.latin.R;
+import com.darshancomputing.openboard.inputmethod.latin.common.CoordinateUtils;
+import com.darshancomputing.openboard.inputmethod.latin.settings.Settings;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;

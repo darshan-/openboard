@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.utils;
+package com.darshancomputing.openboard.inputmethod.latin.utils;
 
 import android.text.Spanned;
 import android.text.style.SuggestionSpan;

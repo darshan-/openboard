@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin;
+package com.darshancomputing.openboard.inputmethod.latin;
 
 import android.text.InputType;
 import android.util.Log;
@@ -22,15 +22,15 @@ import android.view.inputmethod.EditorInfo;
 
 import androidx.core.view.inputmethod.EditorInfoCompat;
 
-import org.dslul.openboard.inputmethod.latin.common.StringUtils;
-import org.dslul.openboard.inputmethod.latin.utils.InputTypeUtils;
+import com.darshancomputing.openboard.inputmethod.latin.common.StringUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.InputTypeUtils;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 
-import static org.dslul.openboard.inputmethod.latin.common.Constants.ImeOption.NO_FLOATING_GESTURE_PREVIEW;
-import static org.dslul.openboard.inputmethod.latin.common.Constants.ImeOption.NO_MICROPHONE;
-import static org.dslul.openboard.inputmethod.latin.common.Constants.ImeOption.NO_MICROPHONE_COMPAT;
+import static com.darshancomputing.openboard.inputmethod.latin.common.Constants.ImeOption.NO_FLOATING_GESTURE_PREVIEW;
+import static com.darshancomputing.openboard.inputmethod.latin.common.Constants.ImeOption.NO_MICROPHONE;
+import static com.darshancomputing.openboard.inputmethod.latin.common.Constants.ImeOption.NO_MICROPHONE_COMPAT;
 
 /**
  * Class to hold attributes of the input field.
@@ -49,7 +49,7 @@ public final class InputAttributes {
     /**
      * Whether the floating gesture preview should be disabled. If true, this should override the
      * corresponding keyboard settings preference, always suppressing the floating preview text.
-     * {@link org.dslul.openboard.inputmethod.latin.settings.SettingsValues#mGestureFloatingPreviewTextEnabled}
+     * {@link com.darshancomputing.openboard.inputmethod.latin.settings.SettingsValues#mGestureFloatingPreviewTextEnabled}
      */
     final public boolean mDisableGestureFloatingPreviewText;
     final public boolean mIsGeneralTextInput;

@@ -15,12 +15,12 @@
  */
 
 
-package org.dslul.openboard.inputmethod.latin.utils;
+package com.darshancomputing.openboard.inputmethod.latin.utils;
 
 import android.content.Context;
 
-import org.dslul.openboard.inputmethod.latin.DictionaryFacilitator;
-import org.dslul.openboard.inputmethod.latin.settings.SettingsValues;
+import com.darshancomputing.openboard.inputmethod.latin.DictionaryFacilitator;
+import com.darshancomputing.openboard.inputmethod.latin.settings.SettingsValues;
 
 @SuppressWarnings("unused")
 public class StatsUtilsManager {

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin;
+package com.darshancomputing.openboard.inputmethod.latin;
 
 import android.app.AlertDialog;
 import android.content.BroadcastReceiver;
@@ -47,47 +47,47 @@ import android.view.inputmethod.CompletionInfo;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodSubtype;
 
-import org.dslul.openboard.inputmethod.accessibility.AccessibilityUtils;
-import org.dslul.openboard.inputmethod.annotations.UsedForTesting;
-import org.dslul.openboard.inputmethod.compat.EditorInfoCompatUtils;
-import org.dslul.openboard.inputmethod.compat.ViewOutlineProviderCompatUtils;
-import org.dslul.openboard.inputmethod.compat.ViewOutlineProviderCompatUtils.InsetsUpdater;
-import org.dslul.openboard.inputmethod.dictionarypack.DictionaryPackConstants;
-import org.dslul.openboard.inputmethod.event.Event;
-import org.dslul.openboard.inputmethod.event.HardwareEventDecoder;
-import org.dslul.openboard.inputmethod.event.HardwareKeyboardEventDecoder;
-import org.dslul.openboard.inputmethod.event.InputTransaction;
-import org.dslul.openboard.inputmethod.keyboard.Keyboard;
-import org.dslul.openboard.inputmethod.keyboard.KeyboardActionListener;
-import org.dslul.openboard.inputmethod.keyboard.KeyboardId;
-import org.dslul.openboard.inputmethod.keyboard.KeyboardSwitcher;
-import org.dslul.openboard.inputmethod.keyboard.MainKeyboardView;
-import org.dslul.openboard.inputmethod.latin.Suggest.OnGetSuggestedWordsCallback;
-import org.dslul.openboard.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
-import org.dslul.openboard.inputmethod.latin.common.Constants;
-import org.dslul.openboard.inputmethod.latin.common.CoordinateUtils;
-import org.dslul.openboard.inputmethod.latin.common.InputPointers;
-import org.dslul.openboard.inputmethod.latin.define.DebugFlags;
-import org.dslul.openboard.inputmethod.latin.define.ProductionFlags;
-import org.dslul.openboard.inputmethod.latin.inputlogic.InputLogic;
-import org.dslul.openboard.inputmethod.latin.permissions.PermissionsManager;
-import org.dslul.openboard.inputmethod.latin.personalization.PersonalizationHelper;
-import org.dslul.openboard.inputmethod.latin.settings.Settings;
-import org.dslul.openboard.inputmethod.latin.settings.SettingsActivity;
-import org.dslul.openboard.inputmethod.latin.settings.SettingsValues;
-import org.dslul.openboard.inputmethod.latin.suggestions.SuggestionStripView;
-import org.dslul.openboard.inputmethod.latin.suggestions.SuggestionStripViewAccessor;
-import org.dslul.openboard.inputmethod.latin.touchinputconsumer.GestureConsumer;
-import org.dslul.openboard.inputmethod.latin.utils.ApplicationUtils;
-import org.dslul.openboard.inputmethod.latin.utils.DeviceProtectedUtils;
-import org.dslul.openboard.inputmethod.latin.utils.DialogUtils;
-import org.dslul.openboard.inputmethod.latin.utils.IntentUtils;
-import org.dslul.openboard.inputmethod.latin.utils.JniUtils;
-import org.dslul.openboard.inputmethod.latin.utils.LeakGuardHandlerWrapper;
-import org.dslul.openboard.inputmethod.latin.utils.StatsUtils;
-import org.dslul.openboard.inputmethod.latin.utils.StatsUtilsManager;
-import org.dslul.openboard.inputmethod.latin.utils.SubtypeLocaleUtils;
-import org.dslul.openboard.inputmethod.latin.utils.ViewLayoutUtils;
+import com.darshancomputing.openboard.inputmethod.accessibility.AccessibilityUtils;
+import com.darshancomputing.openboard.inputmethod.annotations.UsedForTesting;
+import com.darshancomputing.openboard.inputmethod.compat.EditorInfoCompatUtils;
+import com.darshancomputing.openboard.inputmethod.compat.ViewOutlineProviderCompatUtils;
+import com.darshancomputing.openboard.inputmethod.compat.ViewOutlineProviderCompatUtils.InsetsUpdater;
+import com.darshancomputing.openboard.inputmethod.dictionarypack.DictionaryPackConstants;
+import com.darshancomputing.openboard.inputmethod.event.Event;
+import com.darshancomputing.openboard.inputmethod.event.HardwareEventDecoder;
+import com.darshancomputing.openboard.inputmethod.event.HardwareKeyboardEventDecoder;
+import com.darshancomputing.openboard.inputmethod.event.InputTransaction;
+import com.darshancomputing.openboard.inputmethod.keyboard.Keyboard;
+import com.darshancomputing.openboard.inputmethod.keyboard.KeyboardActionListener;
+import com.darshancomputing.openboard.inputmethod.keyboard.KeyboardId;
+import com.darshancomputing.openboard.inputmethod.keyboard.KeyboardSwitcher;
+import com.darshancomputing.openboard.inputmethod.keyboard.MainKeyboardView;
+import com.darshancomputing.openboard.inputmethod.latin.Suggest.OnGetSuggestedWordsCallback;
+import com.darshancomputing.openboard.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
+import com.darshancomputing.openboard.inputmethod.latin.common.Constants;
+import com.darshancomputing.openboard.inputmethod.latin.common.CoordinateUtils;
+import com.darshancomputing.openboard.inputmethod.latin.common.InputPointers;
+import com.darshancomputing.openboard.inputmethod.latin.define.DebugFlags;
+import com.darshancomputing.openboard.inputmethod.latin.define.ProductionFlags;
+import com.darshancomputing.openboard.inputmethod.latin.inputlogic.InputLogic;
+import com.darshancomputing.openboard.inputmethod.latin.permissions.PermissionsManager;
+import com.darshancomputing.openboard.inputmethod.latin.personalization.PersonalizationHelper;
+import com.darshancomputing.openboard.inputmethod.latin.settings.Settings;
+import com.darshancomputing.openboard.inputmethod.latin.settings.SettingsActivity;
+import com.darshancomputing.openboard.inputmethod.latin.settings.SettingsValues;
+import com.darshancomputing.openboard.inputmethod.latin.suggestions.SuggestionStripView;
+import com.darshancomputing.openboard.inputmethod.latin.suggestions.SuggestionStripViewAccessor;
+import com.darshancomputing.openboard.inputmethod.latin.touchinputconsumer.GestureConsumer;
+import com.darshancomputing.openboard.inputmethod.latin.utils.ApplicationUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.DeviceProtectedUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.DialogUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.IntentUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.JniUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.LeakGuardHandlerWrapper;
+import com.darshancomputing.openboard.inputmethod.latin.utils.StatsUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.StatsUtilsManager;
+import com.darshancomputing.openboard.inputmethod.latin.utils.SubtypeLocaleUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.ViewLayoutUtils;
 
 import java.io.FileDescriptor;
 import java.io.PrintWriter;
@@ -98,9 +98,9 @@ import java.util.concurrent.TimeUnit;
 
 import javax.annotation.Nonnull;
 
-import static org.dslul.openboard.inputmethod.latin.common.Constants.ImeOption.FORCE_ASCII;
-import static org.dslul.openboard.inputmethod.latin.common.Constants.ImeOption.NO_MICROPHONE;
-import static org.dslul.openboard.inputmethod.latin.common.Constants.ImeOption.NO_MICROPHONE_COMPAT;
+import static com.darshancomputing.openboard.inputmethod.latin.common.Constants.ImeOption.FORCE_ASCII;
+import static com.darshancomputing.openboard.inputmethod.latin.common.Constants.ImeOption.NO_MICROPHONE;
+import static com.darshancomputing.openboard.inputmethod.latin.common.Constants.ImeOption.NO_MICROPHONE_COMPAT;
 
 /**
  * Input method implementation for Qwerty'ish keyboard.
@@ -122,13 +122,13 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
      * A broadcast intent action to hide the software keyboard.
      */
     static final String ACTION_HIDE_SOFT_INPUT =
-            "org.dslul.openboard.inputmethod.latin.HIDE_SOFT_INPUT";
+            "com.darshancomputing.openboard.inputmethod.latin.HIDE_SOFT_INPUT";
 
     /**
      * A custom permission for external apps to send {@link #ACTION_HIDE_SOFT_INPUT}.
      */
     static final String PERMISSION_HIDE_SOFT_INPUT =
-            "org.dslul.openboard.inputmethod.latin.HIDE_SOFT_INPUT";
+            "com.darshancomputing.openboard.inputmethod.latin.HIDE_SOFT_INPUT";
 
     /**
      * The name of the scheme used by the Package Manager to warn of a new package installation,

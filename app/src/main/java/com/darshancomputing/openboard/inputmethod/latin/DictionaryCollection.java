@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin;
+package com.darshancomputing.openboard.inputmethod.latin;
 
 import android.util.Log;
 
-import org.dslul.openboard.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
-import org.dslul.openboard.inputmethod.latin.common.ComposedData;
-import org.dslul.openboard.inputmethod.latin.settings.SettingsValuesForSuggestion;
+import com.darshancomputing.openboard.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
+import com.darshancomputing.openboard.inputmethod.latin.common.ComposedData;
+import com.darshancomputing.openboard.inputmethod.latin.settings.SettingsValuesForSuggestion;
 
 import java.util.ArrayList;
 import java.util.Collection;

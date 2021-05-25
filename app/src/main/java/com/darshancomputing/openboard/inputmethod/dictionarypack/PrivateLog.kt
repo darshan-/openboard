@@ -1,4 +1,4 @@
-package org.dslul.openboard.inputmethod.dictionarypack
+package com.darshancomputing.openboard.inputmethod.dictionarypack
 
 import android.content.ContentValues
 import android.content.Context

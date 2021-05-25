@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.keyboard.internal;
+package com.darshancomputing.openboard.inputmethod.keyboard.internal;
 
 import android.util.SparseIntArray;
 
-import org.dslul.openboard.inputmethod.keyboard.Key;
-import org.dslul.openboard.inputmethod.keyboard.KeyboardId;
-import org.dslul.openboard.inputmethod.latin.common.Constants;
+import com.darshancomputing.openboard.inputmethod.keyboard.Key;
+import com.darshancomputing.openboard.inputmethod.keyboard.KeyboardId;
+import com.darshancomputing.openboard.inputmethod.latin.common.Constants;
 
 import java.util.ArrayList;
 import java.util.Comparator;

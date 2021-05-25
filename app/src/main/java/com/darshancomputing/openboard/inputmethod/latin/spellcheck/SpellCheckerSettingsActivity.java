@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.spellcheck;
+package com.darshancomputing.openboard.inputmethod.latin.spellcheck;
 
 import android.annotation.TargetApi;
 import android.content.Intent;
@@ -22,8 +22,8 @@ import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
 
-import org.dslul.openboard.inputmethod.latin.permissions.PermissionsManager;
-import org.dslul.openboard.inputmethod.latin.utils.FragmentUtils;
+import com.darshancomputing.openboard.inputmethod.latin.permissions.PermissionsManager;
+import com.darshancomputing.openboard.inputmethod.latin.utils.FragmentUtils;
 
 import androidx.core.app.ActivityCompat;
 

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.keyboard.internal;
+package com.darshancomputing.openboard.inputmethod.keyboard.internal;
 
-import org.dslul.openboard.inputmethod.latin.common.ResizableIntArray;
+import com.darshancomputing.openboard.inputmethod.latin.common.ResizableIntArray;
 
 /**
  * This class holds drawing points to represent a gesture stroke on the screen.

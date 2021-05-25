@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin;
+package com.darshancomputing.openboard.inputmethod.latin;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -24,7 +24,7 @@ import android.provider.ContactsContract.Contacts;
 import android.text.TextUtils;
 import android.util.Log;
 
-import org.dslul.openboard.inputmethod.latin.common.Constants;
+import com.darshancomputing.openboard.inputmethod.latin.common.Constants;
 
 import java.util.ArrayList;
 import java.util.Collections;

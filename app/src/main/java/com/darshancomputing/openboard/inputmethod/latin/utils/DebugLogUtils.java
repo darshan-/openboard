@@ -14,11 +14,11 @@
  * the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.utils;
+package com.darshancomputing.openboard.inputmethod.latin.utils;
 
 import android.util.Log;
 
-import org.dslul.openboard.inputmethod.latin.define.DebugFlags;
+import com.darshancomputing.openboard.inputmethod.latin.define.DebugFlags;
 
 /**
  * A class for logging and debugging utility methods.

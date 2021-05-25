@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.suggestions;
+package com.darshancomputing.openboard.inputmethod.latin.suggestions;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -43,16 +43,16 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.dslul.openboard.inputmethod.accessibility.AccessibilityUtils;
-import org.dslul.openboard.inputmethod.annotations.UsedForTesting;
-import org.dslul.openboard.inputmethod.latin.PunctuationSuggestions;
-import org.dslul.openboard.inputmethod.latin.R;
-import org.dslul.openboard.inputmethod.latin.SuggestedWords;
-import org.dslul.openboard.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
-import org.dslul.openboard.inputmethod.latin.settings.Settings;
-import org.dslul.openboard.inputmethod.latin.settings.SettingsValues;
-import org.dslul.openboard.inputmethod.latin.utils.ResourceUtils;
-import org.dslul.openboard.inputmethod.latin.utils.ViewLayoutUtils;
+import com.darshancomputing.openboard.inputmethod.accessibility.AccessibilityUtils;
+import com.darshancomputing.openboard.inputmethod.annotations.UsedForTesting;
+import com.darshancomputing.openboard.inputmethod.latin.PunctuationSuggestions;
+import com.darshancomputing.openboard.inputmethod.latin.R;
+import com.darshancomputing.openboard.inputmethod.latin.SuggestedWords;
+import com.darshancomputing.openboard.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
+import com.darshancomputing.openboard.inputmethod.latin.settings.Settings;
+import com.darshancomputing.openboard.inputmethod.latin.settings.SettingsValues;
+import com.darshancomputing.openboard.inputmethod.latin.utils.ResourceUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.ViewLayoutUtils;
 
 import java.util.ArrayList;
 

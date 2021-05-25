@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.keyboard.internal;
+package com.darshancomputing.openboard.inputmethod.keyboard.internal;
 
 import android.content.res.TypedArray;
 
-import org.dslul.openboard.inputmethod.latin.R;
-import org.dslul.openboard.inputmethod.latin.utils.ResourceUtils;
+import com.darshancomputing.openboard.inputmethod.latin.R;
+import com.darshancomputing.openboard.inputmethod.latin.utils.ResourceUtils;
 
 /**
  * This class holds parameters to control how a gesture stroke is sampled and recognized.

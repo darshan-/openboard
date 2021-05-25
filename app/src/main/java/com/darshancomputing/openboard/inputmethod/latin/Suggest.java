@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin;
+package com.darshancomputing.openboard.inputmethod.latin;
 
 import android.text.TextUtils;
 import android.util.Log;
 
-import org.dslul.openboard.inputmethod.keyboard.Keyboard;
-import org.dslul.openboard.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
-import org.dslul.openboard.inputmethod.latin.common.Constants;
-import org.dslul.openboard.inputmethod.latin.common.StringUtils;
-import org.dslul.openboard.inputmethod.latin.define.DebugFlags;
-import org.dslul.openboard.inputmethod.latin.settings.SettingsValuesForSuggestion;
-import org.dslul.openboard.inputmethod.latin.utils.AutoCorrectionUtils;
-import org.dslul.openboard.inputmethod.latin.utils.BinaryDictionaryUtils;
-import org.dslul.openboard.inputmethod.latin.utils.SuggestionResults;
+import com.darshancomputing.openboard.inputmethod.keyboard.Keyboard;
+import com.darshancomputing.openboard.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
+import com.darshancomputing.openboard.inputmethod.latin.common.Constants;
+import com.darshancomputing.openboard.inputmethod.latin.common.StringUtils;
+import com.darshancomputing.openboard.inputmethod.latin.define.DebugFlags;
+import com.darshancomputing.openboard.inputmethod.latin.settings.SettingsValuesForSuggestion;
+import com.darshancomputing.openboard.inputmethod.latin.utils.AutoCorrectionUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.BinaryDictionaryUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.SuggestionResults;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -35,8 +35,8 @@ import java.util.Locale;
 
 import javax.annotation.Nonnull;
 
-import static org.dslul.openboard.inputmethod.latin.define.DecoderSpecificConstants.SHOULD_AUTO_CORRECT_USING_NON_WHITE_LISTED_SUGGESTION;
-import static org.dslul.openboard.inputmethod.latin.define.DecoderSpecificConstants.SHOULD_REMOVE_PREVIOUSLY_REJECTED_SUGGESTION;
+import static com.darshancomputing.openboard.inputmethod.latin.define.DecoderSpecificConstants.SHOULD_AUTO_CORRECT_USING_NON_WHITE_LISTED_SUGGESTION;
+import static com.darshancomputing.openboard.inputmethod.latin.define.DecoderSpecificConstants.SHOULD_REMOVE_PREVIOUSLY_REJECTED_SUGGESTION;
 
 /**
  * This class loads a dictionary and provides a list of suggestions for a given sequence of

@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin;
+package com.darshancomputing.openboard.inputmethod.latin;
 
 import android.text.TextUtils;
 
-import org.dslul.openboard.inputmethod.event.Event;
-import org.dslul.openboard.inputmethod.latin.common.InputPointers;
-import org.dslul.openboard.inputmethod.latin.define.DecoderSpecificConstants;
+import com.darshancomputing.openboard.inputmethod.event.Event;
+import com.darshancomputing.openboard.inputmethod.latin.common.InputPointers;
+import com.darshancomputing.openboard.inputmethod.latin.define.DecoderSpecificConstants;
 
 import java.util.ArrayList;
 

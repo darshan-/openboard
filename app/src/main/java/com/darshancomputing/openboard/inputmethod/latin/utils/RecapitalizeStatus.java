@@ -14,9 +14,9 @@
  * the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.utils;
+package com.darshancomputing.openboard.inputmethod.latin.utils;
 
-import org.dslul.openboard.inputmethod.latin.common.StringUtils;
+import com.darshancomputing.openboard.inputmethod.latin.common.StringUtils;
 
 import java.util.Locale;
 

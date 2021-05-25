@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.utils;
+package com.darshancomputing.openboard.inputmethod.latin.utils;
 
 import android.annotation.TargetApi;
 import android.graphics.Matrix;
@@ -30,7 +30,7 @@ import android.view.ViewParent;
 import android.view.inputmethod.CursorAnchorInfo;
 import android.widget.TextView;
 
-import org.dslul.openboard.inputmethod.compat.CursorAnchorInfoCompatWrapper;
+import com.darshancomputing.openboard.inputmethod.compat.CursorAnchorInfoCompatWrapper;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;

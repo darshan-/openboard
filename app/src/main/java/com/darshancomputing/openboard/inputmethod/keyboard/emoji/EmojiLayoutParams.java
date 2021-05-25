@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.keyboard.emoji;
+package com.darshancomputing.openboard.inputmethod.keyboard.emoji;
 
 import android.content.res.Resources;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import org.dslul.openboard.inputmethod.latin.R;
-import org.dslul.openboard.inputmethod.latin.utils.ResourceUtils;
+import com.darshancomputing.openboard.inputmethod.latin.R;
+import com.darshancomputing.openboard.inputmethod.latin.utils.ResourceUtils;
 
 import androidx.viewpager.widget.ViewPager;
 import androidx.viewpager2.widget.ViewPager2;

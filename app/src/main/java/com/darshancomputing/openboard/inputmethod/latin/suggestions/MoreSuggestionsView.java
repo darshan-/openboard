@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.suggestions;
+package com.darshancomputing.openboard.inputmethod.latin.suggestions;
 
 import android.content.Context;
 import android.util.AttributeSet;
 import android.util.Log;
 
-import org.dslul.openboard.inputmethod.keyboard.Key;
-import org.dslul.openboard.inputmethod.keyboard.Keyboard;
-import org.dslul.openboard.inputmethod.keyboard.KeyboardActionListener;
-import org.dslul.openboard.inputmethod.keyboard.MoreKeysKeyboardView;
-import org.dslul.openboard.inputmethod.latin.R;
-import org.dslul.openboard.inputmethod.latin.SuggestedWords;
-import org.dslul.openboard.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
-import org.dslul.openboard.inputmethod.latin.suggestions.MoreSuggestions.MoreSuggestionKey;
+import com.darshancomputing.openboard.inputmethod.keyboard.Key;
+import com.darshancomputing.openboard.inputmethod.keyboard.Keyboard;
+import com.darshancomputing.openboard.inputmethod.keyboard.KeyboardActionListener;
+import com.darshancomputing.openboard.inputmethod.keyboard.MoreKeysKeyboardView;
+import com.darshancomputing.openboard.inputmethod.latin.R;
+import com.darshancomputing.openboard.inputmethod.latin.SuggestedWords;
+import com.darshancomputing.openboard.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
+import com.darshancomputing.openboard.inputmethod.latin.suggestions.MoreSuggestions.MoreSuggestionKey;
 
 /**
  * A view that renders a virtual {@link MoreSuggestions}. It handles rendering of keys and detecting

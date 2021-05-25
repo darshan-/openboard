@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.settings;
+package com.darshancomputing.openboard.inputmethod.latin.settings;
 
 import android.os.Build;
 import android.preference.CheckBoxPreference;

@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.keyboard.internal;
+package com.darshancomputing.openboard.inputmethod.keyboard.internal;
 
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Path;
 
-import org.dslul.openboard.inputmethod.keyboard.PointerTracker;
-import org.dslul.openboard.inputmethod.latin.R;
-import org.dslul.openboard.inputmethod.latin.common.CoordinateUtils;
+import com.darshancomputing.openboard.inputmethod.keyboard.PointerTracker;
+import com.darshancomputing.openboard.inputmethod.latin.R;
+import com.darshancomputing.openboard.inputmethod.latin.common.CoordinateUtils;
 
 /**
  * Draw rubber band preview graphics during sliding key input.

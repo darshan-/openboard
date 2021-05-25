@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin;
+package com.darshancomputing.openboard.inputmethod.latin;
 
 import android.app.backup.BackupAgentHelper;
 import android.app.backup.BackupDataInput;
@@ -22,7 +22,7 @@ import android.app.backup.SharedPreferencesBackupHelper;
 import android.content.SharedPreferences;
 import android.os.ParcelFileDescriptor;
 
-import org.dslul.openboard.inputmethod.latin.settings.LocalSettingsConstants;
+import com.darshancomputing.openboard.inputmethod.latin.settings.LocalSettingsConstants;
 
 import java.io.IOException;
 

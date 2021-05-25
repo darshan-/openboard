@@ -1,4 +1,4 @@
-package org.dslul.openboard.inputmethod.accessibility
+package com.darshancomputing.openboard.inputmethod.accessibility
 
 import android.graphics.Rect
 import android.os.Bundle
@@ -9,11 +9,11 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.accessibility.AccessibilityEventCompat
 import androidx.core.view.accessibility.AccessibilityNodeInfoCompat
 import androidx.core.view.accessibility.AccessibilityNodeProviderCompat
-import org.dslul.openboard.inputmethod.keyboard.Key
-import org.dslul.openboard.inputmethod.keyboard.Keyboard
-import org.dslul.openboard.inputmethod.keyboard.KeyboardView
-import org.dslul.openboard.inputmethod.latin.common.CoordinateUtils
-import org.dslul.openboard.inputmethod.latin.settings.Settings
+import com.darshancomputing.openboard.inputmethod.keyboard.Key
+import com.darshancomputing.openboard.inputmethod.keyboard.Keyboard
+import com.darshancomputing.openboard.inputmethod.keyboard.KeyboardView
+import com.darshancomputing.openboard.inputmethod.latin.common.CoordinateUtils
+import com.darshancomputing.openboard.inputmethod.latin.settings.Settings
 
 /**
  * Exposes a virtual view sub-tree for [KeyboardView] and generates

@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.utils;
+package com.darshancomputing.openboard.inputmethod.latin.utils;
 
 import android.view.inputmethod.InputMethodSubtype;
 
-import org.dslul.openboard.inputmethod.latin.DictionaryFacilitator;
-import org.dslul.openboard.inputmethod.latin.RichInputMethodManager;
-import org.dslul.openboard.inputmethod.latin.SuggestedWords;
-import org.dslul.openboard.inputmethod.latin.settings.SettingsValues;
+import com.darshancomputing.openboard.inputmethod.latin.DictionaryFacilitator;
+import com.darshancomputing.openboard.inputmethod.latin.RichInputMethodManager;
+import com.darshancomputing.openboard.inputmethod.latin.SuggestedWords;
+import com.darshancomputing.openboard.inputmethod.latin.settings.SettingsValues;
 
 @SuppressWarnings("unused")
 public final class StatsUtils {

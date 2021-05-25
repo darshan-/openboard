@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.keyboard.internal;
+package com.darshancomputing.openboard.inputmethod.keyboard.internal;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -27,17 +27,17 @@ import android.util.Log;
 import android.util.TypedValue;
 import android.util.Xml;
 
-import org.dslul.openboard.inputmethod.annotations.UsedForTesting;
-import org.dslul.openboard.inputmethod.keyboard.Key;
-import org.dslul.openboard.inputmethod.keyboard.Keyboard;
-import org.dslul.openboard.inputmethod.keyboard.KeyboardId;
-import org.dslul.openboard.inputmethod.keyboard.KeyboardTheme;
-import org.dslul.openboard.inputmethod.latin.R;
-import org.dslul.openboard.inputmethod.latin.common.Constants;
-import org.dslul.openboard.inputmethod.latin.common.StringUtils;
-import org.dslul.openboard.inputmethod.latin.utils.ResourceUtils;
-import org.dslul.openboard.inputmethod.latin.utils.XmlParseUtils;
-import org.dslul.openboard.inputmethod.latin.utils.XmlParseUtils.ParseException;
+import com.darshancomputing.openboard.inputmethod.annotations.UsedForTesting;
+import com.darshancomputing.openboard.inputmethod.keyboard.Key;
+import com.darshancomputing.openboard.inputmethod.keyboard.Keyboard;
+import com.darshancomputing.openboard.inputmethod.keyboard.KeyboardId;
+import com.darshancomputing.openboard.inputmethod.keyboard.KeyboardTheme;
+import com.darshancomputing.openboard.inputmethod.latin.R;
+import com.darshancomputing.openboard.inputmethod.latin.common.Constants;
+import com.darshancomputing.openboard.inputmethod.latin.common.StringUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.ResourceUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.XmlParseUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.XmlParseUtils.ParseException;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 

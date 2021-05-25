@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.settings;
+package com.darshancomputing.openboard.inputmethod.latin.settings;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -26,7 +26,7 @@ import android.view.View;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
-import org.dslul.openboard.inputmethod.latin.R;
+import com.darshancomputing.openboard.inputmethod.latin.R;
 
 public final class SeekBarDialogPreference extends DialogPreference
         implements SeekBar.OnSeekBarChangeListener {

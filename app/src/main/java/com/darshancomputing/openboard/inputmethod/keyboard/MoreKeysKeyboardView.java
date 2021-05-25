@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.keyboard;
+package com.darshancomputing.openboard.inputmethod.keyboard;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -26,13 +26,13 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 
-import org.dslul.openboard.inputmethod.accessibility.AccessibilityUtils;
-import org.dslul.openboard.inputmethod.accessibility.MoreKeysKeyboardAccessibilityDelegate;
-import org.dslul.openboard.inputmethod.keyboard.emoji.OnKeyEventListener;
-import org.dslul.openboard.inputmethod.keyboard.internal.KeyDrawParams;
-import org.dslul.openboard.inputmethod.latin.R;
-import org.dslul.openboard.inputmethod.latin.common.Constants;
-import org.dslul.openboard.inputmethod.latin.common.CoordinateUtils;
+import com.darshancomputing.openboard.inputmethod.accessibility.AccessibilityUtils;
+import com.darshancomputing.openboard.inputmethod.accessibility.MoreKeysKeyboardAccessibilityDelegate;
+import com.darshancomputing.openboard.inputmethod.keyboard.emoji.OnKeyEventListener;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.KeyDrawParams;
+import com.darshancomputing.openboard.inputmethod.latin.R;
+import com.darshancomputing.openboard.inputmethod.latin.common.Constants;
+import com.darshancomputing.openboard.inputmethod.latin.common.CoordinateUtils;
 
 /**
  * A view that renders a virtual {@link MoreKeysKeyboard}. It handles rendering of keys and

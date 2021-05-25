@@ -1,4 +1,4 @@
-package org.dslul.openboard.inputmethod.annotations
+package com.darshancomputing.openboard.inputmethod.annotations
 
 /**
  * Denotes that the class, method or field should not be eliminated by ProGuard,

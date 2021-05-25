@@ -1,4 +1,4 @@
-package org.dslul.openboard.inputmethod.dictionarypack
+package com.darshancomputing.openboard.inputmethod.dictionarypack
 
 import android.animation.Animator
 import android.animation.AnimatorListenerAdapter
@@ -8,7 +8,7 @@ import android.view.View
 import android.view.ViewPropertyAnimator
 import android.widget.Button
 import android.widget.FrameLayout
-import org.dslul.openboard.inputmethod.latin.R
+import com.darshancomputing.openboard.inputmethod.latin.R
 
 /**
  * A view that handles buttons inside it according to a status.

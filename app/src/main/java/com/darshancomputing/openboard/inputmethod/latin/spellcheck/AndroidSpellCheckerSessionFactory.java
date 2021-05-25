@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.spellcheck;
+package com.darshancomputing.openboard.inputmethod.latin.spellcheck;
 
 import android.service.textservice.SpellCheckerService.Session;
 

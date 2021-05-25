@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.spellcheck;
+package com.darshancomputing.openboard.inputmethod.latin.spellcheck;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -24,21 +24,21 @@ import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodSubtype;
 import android.view.textservice.SuggestionsInfo;
 
-import org.dslul.openboard.inputmethod.keyboard.Keyboard;
-import org.dslul.openboard.inputmethod.keyboard.KeyboardId;
-import org.dslul.openboard.inputmethod.keyboard.KeyboardLayoutSet;
-import org.dslul.openboard.inputmethod.latin.DictionaryFacilitator;
-import org.dslul.openboard.inputmethod.latin.DictionaryFacilitatorLruCache;
-import org.dslul.openboard.inputmethod.latin.NgramContext;
-import org.dslul.openboard.inputmethod.latin.R;
-import org.dslul.openboard.inputmethod.latin.RichInputMethodSubtype;
-import org.dslul.openboard.inputmethod.latin.SuggestedWords;
-import org.dslul.openboard.inputmethod.latin.common.ComposedData;
-import org.dslul.openboard.inputmethod.latin.settings.SettingsValuesForSuggestion;
-import org.dslul.openboard.inputmethod.latin.utils.AdditionalSubtypeUtils;
-import org.dslul.openboard.inputmethod.latin.utils.DeviceProtectedUtils;
-import org.dslul.openboard.inputmethod.latin.utils.ScriptUtils;
-import org.dslul.openboard.inputmethod.latin.utils.SuggestionResults;
+import com.darshancomputing.openboard.inputmethod.keyboard.Keyboard;
+import com.darshancomputing.openboard.inputmethod.keyboard.KeyboardId;
+import com.darshancomputing.openboard.inputmethod.keyboard.KeyboardLayoutSet;
+import com.darshancomputing.openboard.inputmethod.latin.DictionaryFacilitator;
+import com.darshancomputing.openboard.inputmethod.latin.DictionaryFacilitatorLruCache;
+import com.darshancomputing.openboard.inputmethod.latin.NgramContext;
+import com.darshancomputing.openboard.inputmethod.latin.R;
+import com.darshancomputing.openboard.inputmethod.latin.RichInputMethodSubtype;
+import com.darshancomputing.openboard.inputmethod.latin.SuggestedWords;
+import com.darshancomputing.openboard.inputmethod.latin.common.ComposedData;
+import com.darshancomputing.openboard.inputmethod.latin.settings.SettingsValuesForSuggestion;
+import com.darshancomputing.openboard.inputmethod.latin.utils.AdditionalSubtypeUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.DeviceProtectedUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.ScriptUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.SuggestionResults;
 
 import java.util.Locale;
 import java.util.concurrent.ConcurrentHashMap;

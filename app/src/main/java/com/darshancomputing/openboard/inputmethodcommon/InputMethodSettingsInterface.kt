@@ -1,4 +1,4 @@
-package org.dslul.openboard.inputmethodcommon
+package com.darshancomputing.openboard.inputmethodcommon
 
 import android.graphics.drawable.Drawable
 

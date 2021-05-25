@@ -14,10 +14,10 @@
  * limitations under the License
  */
 
-package org.dslul.openboard.inputmethod.latin.utils;
+package com.darshancomputing.openboard.inputmethod.latin.utils;
 
-import org.dslul.openboard.inputmethod.latin.AssetFileAddress;
-import org.dslul.openboard.inputmethod.latin.makedict.DictionaryHeader;
+import com.darshancomputing.openboard.inputmethod.latin.AssetFileAddress;
+import com.darshancomputing.openboard.inputmethod.latin.makedict.DictionaryHeader;
 
 import java.io.File;
 

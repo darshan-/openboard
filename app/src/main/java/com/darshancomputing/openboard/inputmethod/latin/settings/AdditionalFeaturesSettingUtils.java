@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.settings;
+package com.darshancomputing.openboard.inputmethod.latin.settings;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceFragment;
 import android.view.inputmethod.InputMethodSubtype;
 
-import org.dslul.openboard.inputmethod.latin.RichInputMethodManager;
-import org.dslul.openboard.inputmethod.latin.RichInputMethodSubtype;
+import com.darshancomputing.openboard.inputmethod.latin.RichInputMethodManager;
+import com.darshancomputing.openboard.inputmethod.latin.RichInputMethodSubtype;
 
 import javax.annotation.Nonnull;
 

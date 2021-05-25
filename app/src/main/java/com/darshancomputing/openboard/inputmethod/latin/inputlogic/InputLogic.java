@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.inputlogic;
+package com.darshancomputing.openboard.inputmethod.latin.inputlogic;
 
 import android.graphics.Color;
 import android.os.SystemClock;
@@ -29,35 +29,35 @@ import android.view.KeyEvent;
 import android.view.inputmethod.CorrectionInfo;
 import android.view.inputmethod.EditorInfo;
 
-import org.dslul.openboard.inputmethod.compat.SuggestionSpanUtils;
-import org.dslul.openboard.inputmethod.event.Event;
-import org.dslul.openboard.inputmethod.event.InputTransaction;
-import org.dslul.openboard.inputmethod.keyboard.Keyboard;
-import org.dslul.openboard.inputmethod.keyboard.KeyboardSwitcher;
-import org.dslul.openboard.inputmethod.latin.Dictionary;
-import org.dslul.openboard.inputmethod.latin.DictionaryFacilitator;
-import org.dslul.openboard.inputmethod.latin.LastComposedWord;
-import org.dslul.openboard.inputmethod.latin.LatinIME;
-import org.dslul.openboard.inputmethod.latin.NgramContext;
-import org.dslul.openboard.inputmethod.latin.RichInputConnection;
-import org.dslul.openboard.inputmethod.latin.Suggest;
-import org.dslul.openboard.inputmethod.latin.Suggest.OnGetSuggestedWordsCallback;
-import org.dslul.openboard.inputmethod.latin.SuggestedWords;
-import org.dslul.openboard.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
-import org.dslul.openboard.inputmethod.latin.WordComposer;
-import org.dslul.openboard.inputmethod.latin.common.Constants;
-import org.dslul.openboard.inputmethod.latin.common.InputPointers;
-import org.dslul.openboard.inputmethod.latin.common.StringUtils;
-import org.dslul.openboard.inputmethod.latin.define.DebugFlags;
-import org.dslul.openboard.inputmethod.latin.settings.SettingsValues;
-import org.dslul.openboard.inputmethod.latin.settings.SettingsValuesForSuggestion;
-import org.dslul.openboard.inputmethod.latin.settings.SpacingAndPunctuations;
-import org.dslul.openboard.inputmethod.latin.suggestions.SuggestionStripViewAccessor;
-import org.dslul.openboard.inputmethod.latin.utils.AsyncResultHolder;
-import org.dslul.openboard.inputmethod.latin.utils.InputTypeUtils;
-import org.dslul.openboard.inputmethod.latin.utils.RecapitalizeStatus;
-import org.dslul.openboard.inputmethod.latin.utils.StatsUtils;
-import org.dslul.openboard.inputmethod.latin.utils.TextRange;
+import com.darshancomputing.openboard.inputmethod.compat.SuggestionSpanUtils;
+import com.darshancomputing.openboard.inputmethod.event.Event;
+import com.darshancomputing.openboard.inputmethod.event.InputTransaction;
+import com.darshancomputing.openboard.inputmethod.keyboard.Keyboard;
+import com.darshancomputing.openboard.inputmethod.keyboard.KeyboardSwitcher;
+import com.darshancomputing.openboard.inputmethod.latin.Dictionary;
+import com.darshancomputing.openboard.inputmethod.latin.DictionaryFacilitator;
+import com.darshancomputing.openboard.inputmethod.latin.LastComposedWord;
+import com.darshancomputing.openboard.inputmethod.latin.LatinIME;
+import com.darshancomputing.openboard.inputmethod.latin.NgramContext;
+import com.darshancomputing.openboard.inputmethod.latin.RichInputConnection;
+import com.darshancomputing.openboard.inputmethod.latin.Suggest;
+import com.darshancomputing.openboard.inputmethod.latin.Suggest.OnGetSuggestedWordsCallback;
+import com.darshancomputing.openboard.inputmethod.latin.SuggestedWords;
+import com.darshancomputing.openboard.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
+import com.darshancomputing.openboard.inputmethod.latin.WordComposer;
+import com.darshancomputing.openboard.inputmethod.latin.common.Constants;
+import com.darshancomputing.openboard.inputmethod.latin.common.InputPointers;
+import com.darshancomputing.openboard.inputmethod.latin.common.StringUtils;
+import com.darshancomputing.openboard.inputmethod.latin.define.DebugFlags;
+import com.darshancomputing.openboard.inputmethod.latin.settings.SettingsValues;
+import com.darshancomputing.openboard.inputmethod.latin.settings.SettingsValuesForSuggestion;
+import com.darshancomputing.openboard.inputmethod.latin.settings.SpacingAndPunctuations;
+import com.darshancomputing.openboard.inputmethod.latin.suggestions.SuggestionStripViewAccessor;
+import com.darshancomputing.openboard.inputmethod.latin.utils.AsyncResultHolder;
+import com.darshancomputing.openboard.inputmethod.latin.utils.InputTypeUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.RecapitalizeStatus;
+import com.darshancomputing.openboard.inputmethod.latin.utils.StatsUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.TextRange;
 
 import java.util.ArrayList;
 import java.util.Locale;
@@ -265,7 +265,7 @@ public final class InputLogic {
      * @param settingsValues the current values of the settings.
      * @param suggestionInfo the suggestion info.
      * @param keyboardShiftState the shift state of the keyboard, as returned by
-     *     {@link org.dslul.openboard.inputmethod.keyboard.KeyboardSwitcher#getKeyboardShiftMode()}
+     *     {@link com.darshancomputing.openboard.inputmethod.keyboard.KeyboardSwitcher#getKeyboardShiftMode()}
      * @return the complete transaction object
      */
     // Called from {@link SuggestionStripView} through the {@link SuggestionStripView#Listener}
@@ -431,7 +431,7 @@ public final class InputLogic {
      * @param settingsValues the current settings values.
      * @param event the event to handle.
      * @param keyboardShiftMode the current shift mode of the keyboard, as returned by
-     *     {@link org.dslul.openboard.inputmethod.keyboard.KeyboardSwitcher#getKeyboardShiftMode()}
+     *     {@link com.darshancomputing.openboard.inputmethod.keyboard.KeyboardSwitcher#getKeyboardShiftMode()}
      * @return the complete transaction object
      */
     public InputTransaction onCodeInput(final SettingsValues settingsValues,
@@ -1903,10 +1903,10 @@ public final class InputLogic {
     }
 
     /**
-     * Make a {@link org.dslul.openboard.inputmethod.latin.SuggestedWords} object containing a typed word
+     * Make a {@link com.darshancomputing.openboard.inputmethod.latin.SuggestedWords} object containing a typed word
      * and obsolete suggestions.
-     * See {@link org.dslul.openboard.inputmethod.latin.SuggestedWords#getTypedWordAndPreviousSuggestions(
-     *      SuggestedWordInfo, org.dslul.openboard.inputmethod.latin.SuggestedWords)}.
+     * See {@link com.darshancomputing.openboard.inputmethod.latin.SuggestedWords#getTypedWordAndPreviousSuggestions(
+     *      SuggestedWordInfo, com.darshancomputing.openboard.inputmethod.latin.SuggestedWords)}.
      * @param typedWordInfo The typed word as a SuggestedWordInfo.
      * @param previousSuggestedWords The previously suggested words.
      * @return Obsolete suggestions with the newly typed word.

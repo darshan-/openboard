@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.settings;
+package com.darshancomputing.openboard.inputmethod.latin.settings;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -32,10 +32,10 @@ import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.SpinnerAdapter;
 
-import org.dslul.openboard.inputmethod.latin.R;
-import org.dslul.openboard.inputmethod.latin.RichInputMethodManager;
-import org.dslul.openboard.inputmethod.latin.utils.AdditionalSubtypeUtils;
-import org.dslul.openboard.inputmethod.latin.utils.SubtypeLocaleUtils;
+import com.darshancomputing.openboard.inputmethod.latin.R;
+import com.darshancomputing.openboard.inputmethod.latin.RichInputMethodManager;
+import com.darshancomputing.openboard.inputmethod.latin.utils.AdditionalSubtypeUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.SubtypeLocaleUtils;
 
 import java.util.TreeSet;
 

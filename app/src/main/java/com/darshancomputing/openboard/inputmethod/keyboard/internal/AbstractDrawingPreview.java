@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.keyboard.internal;
+package com.darshancomputing.openboard.inputmethod.keyboard.internal;
 
 import android.graphics.Canvas;
 import android.view.View;
 
-import org.dslul.openboard.inputmethod.keyboard.MainKeyboardView;
-import org.dslul.openboard.inputmethod.keyboard.PointerTracker;
+import com.darshancomputing.openboard.inputmethod.keyboard.MainKeyboardView;
+import com.darshancomputing.openboard.inputmethod.keyboard.PointerTracker;
 
 import javax.annotation.Nonnull;
 

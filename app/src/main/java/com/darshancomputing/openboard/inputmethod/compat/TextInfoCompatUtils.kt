@@ -1,7 +1,7 @@
-package org.dslul.openboard.inputmethod.compat
+package com.darshancomputing.openboard.inputmethod.compat
 
 import android.view.textservice.TextInfo
-import org.dslul.openboard.inputmethod.annotations.UsedForTesting
+import com.darshancomputing.openboard.inputmethod.annotations.UsedForTesting
 
 object TextInfoCompatUtils {
     // Note that TextInfo.getCharSequence() is supposed to be available in API level 21 and later.

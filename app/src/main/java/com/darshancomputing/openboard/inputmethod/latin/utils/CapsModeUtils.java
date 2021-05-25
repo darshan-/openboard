@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.utils;
+package com.darshancomputing.openboard.inputmethod.latin.utils;
 
 import android.text.InputType;
 import android.text.TextUtils;
 
-import org.dslul.openboard.inputmethod.latin.WordComposer;
-import org.dslul.openboard.inputmethod.latin.common.Constants;
-import org.dslul.openboard.inputmethod.latin.common.StringUtils;
-import org.dslul.openboard.inputmethod.latin.settings.SpacingAndPunctuations;
+import com.darshancomputing.openboard.inputmethod.latin.WordComposer;
+import com.darshancomputing.openboard.inputmethod.latin.common.Constants;
+import com.darshancomputing.openboard.inputmethod.latin.common.StringUtils;
+import com.darshancomputing.openboard.inputmethod.latin.settings.SpacingAndPunctuations;
 
 import java.util.ArrayList;
 import java.util.Locale;

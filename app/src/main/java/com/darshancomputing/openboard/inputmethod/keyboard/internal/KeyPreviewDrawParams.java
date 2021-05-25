@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.keyboard.internal;
+package com.darshancomputing.openboard.inputmethod.keyboard.internal;
 
 import android.animation.Animator;
 import android.animation.AnimatorInflater;
@@ -25,7 +25,7 @@ import android.view.View;
 import android.view.animation.AccelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;
 
-import org.dslul.openboard.inputmethod.latin.R;
+import com.darshancomputing.openboard.inputmethod.latin.R;
 
 public final class KeyPreviewDrawParams {
     // XML attributes of {@link MainKeyboardView}.

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.keyboard.internal;
+package com.darshancomputing.openboard.inputmethod.keyboard.internal;
 
 import android.util.Log;
 
-import org.dslul.openboard.inputmethod.annotations.UsedForTesting;
+import com.darshancomputing.openboard.inputmethod.annotations.UsedForTesting;
 
 import java.util.Arrays;
 

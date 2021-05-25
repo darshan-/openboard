@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.utils;
+package com.darshancomputing.openboard.inputmethod.latin.utils;
 
 import android.content.res.Resources;
 import android.content.res.TypedArray;
@@ -24,9 +24,9 @@ import android.util.DisplayMetrics;
 import android.util.Log;
 import android.util.TypedValue;
 
-import org.dslul.openboard.inputmethod.annotations.UsedForTesting;
-import org.dslul.openboard.inputmethod.latin.R;
-import org.dslul.openboard.inputmethod.latin.settings.SettingsValues;
+import com.darshancomputing.openboard.inputmethod.annotations.UsedForTesting;
+import com.darshancomputing.openboard.inputmethod.latin.R;
+import com.darshancomputing.openboard.inputmethod.latin.settings.SettingsValues;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -119,7 +119,7 @@ public final class ResourceUtils {
      * @param conditionConstantArray an array of "condition,constant" elements to be searched.
      * @return the constant part of the matched "condition,constant" element. Returns null if no
      * condition matches.
-     * @see org.dslul.openboard.inputmethod.latin.utils.ResourceUtilsTests#testFindConstantForKeyValuePairsRegexp()
+     * @see com.darshancomputing.openboard.inputmethod.latin.utils.ResourceUtilsTests#testFindConstantForKeyValuePairsRegexp()
      */
     @UsedForTesting
     static String findConstantForKeyValuePairs(final HashMap<String, String> keyValuePairs,

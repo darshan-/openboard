@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.suggestions;
+package com.darshancomputing.openboard.inputmethod.latin.suggestions;
 
 import android.content.Context;
 import android.content.res.Resources;
 import android.graphics.Paint;
 import android.graphics.drawable.Drawable;
 
-import org.dslul.openboard.inputmethod.keyboard.Key;
-import org.dslul.openboard.inputmethod.keyboard.Keyboard;
-import org.dslul.openboard.inputmethod.keyboard.internal.KeyboardBuilder;
-import org.dslul.openboard.inputmethod.keyboard.internal.KeyboardIconsSet;
-import org.dslul.openboard.inputmethod.keyboard.internal.KeyboardParams;
-import org.dslul.openboard.inputmethod.latin.R;
-import org.dslul.openboard.inputmethod.latin.SuggestedWords;
-import org.dslul.openboard.inputmethod.latin.common.Constants;
-import org.dslul.openboard.inputmethod.latin.utils.TypefaceUtils;
+import com.darshancomputing.openboard.inputmethod.keyboard.Key;
+import com.darshancomputing.openboard.inputmethod.keyboard.Keyboard;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.KeyboardBuilder;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.KeyboardIconsSet;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.KeyboardParams;
+import com.darshancomputing.openboard.inputmethod.latin.R;
+import com.darshancomputing.openboard.inputmethod.latin.SuggestedWords;
+import com.darshancomputing.openboard.inputmethod.latin.common.Constants;
+import com.darshancomputing.openboard.inputmethod.latin.utils.TypefaceUtils;
 
 public final class MoreSuggestions extends Keyboard {
     public final SuggestedWords mSuggestedWords;

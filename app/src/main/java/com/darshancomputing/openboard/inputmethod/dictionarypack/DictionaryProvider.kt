@@ -1,4 +1,4 @@
-package org.dslul.openboard.inputmethod.dictionarypack
+package com.darshancomputing.openboard.inputmethod.dictionarypack
 
 import android.content.ContentProvider
 import android.content.ContentResolver
@@ -12,10 +12,10 @@ import android.net.Uri
 import android.os.ParcelFileDescriptor
 import android.text.TextUtils
 import android.util.Log
-import org.dslul.openboard.inputmethod.dictionarypack.ActionBatch.MarkPreInstalledAction
-import org.dslul.openboard.inputmethod.latin.R
-import org.dslul.openboard.inputmethod.latin.common.LocaleUtils
-import org.dslul.openboard.inputmethod.latin.utils.DebugLogUtils
+import com.darshancomputing.openboard.inputmethod.dictionarypack.ActionBatch.MarkPreInstalledAction
+import com.darshancomputing.openboard.inputmethod.latin.R
+import com.darshancomputing.openboard.inputmethod.latin.common.LocaleUtils
+import com.darshancomputing.openboard.inputmethod.latin.utils.DebugLogUtils
 import java.io.FileNotFoundException
 import java.util.*
 

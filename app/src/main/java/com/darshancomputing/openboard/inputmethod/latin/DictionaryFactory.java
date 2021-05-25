@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin;
+package com.darshancomputing.openboard.inputmethod.latin;
 
 import android.content.ContentProviderClient;
 import android.content.Context;
 import android.content.res.AssetFileDescriptor;
 import android.util.Log;
 
-import org.dslul.openboard.inputmethod.latin.utils.DictionaryInfoUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.DictionaryInfoUtils;
 
 import java.io.File;
 import java.util.ArrayList;

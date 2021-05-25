@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.makedict;
+package com.darshancomputing.openboard.inputmethod.latin.makedict;
 
-import org.dslul.openboard.inputmethod.latin.NgramContext;
+import com.darshancomputing.openboard.inputmethod.latin.NgramContext;
 
 public class NgramProperty {
     public final WeightedString mTargetWord;

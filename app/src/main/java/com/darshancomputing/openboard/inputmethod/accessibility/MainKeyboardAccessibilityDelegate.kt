@@ -1,14 +1,14 @@
-package org.dslul.openboard.inputmethod.accessibility
+package com.darshancomputing.openboard.inputmethod.accessibility
 
 import android.graphics.Rect
 import android.os.SystemClock
 import android.util.Log
 import android.util.SparseIntArray
 import android.view.MotionEvent
-import org.dslul.openboard.inputmethod.accessibility.AccessibilityLongPressTimer.LongPressTimerCallback
-import org.dslul.openboard.inputmethod.keyboard.*
-import org.dslul.openboard.inputmethod.latin.R
-import org.dslul.openboard.inputmethod.latin.utils.SubtypeLocaleUtils
+import com.darshancomputing.openboard.inputmethod.accessibility.AccessibilityLongPressTimer.LongPressTimerCallback
+import com.darshancomputing.openboard.inputmethod.keyboard.*
+import com.darshancomputing.openboard.inputmethod.latin.R
+import com.darshancomputing.openboard.inputmethod.latin.utils.SubtypeLocaleUtils
 
 /**
  * This class represents a delegate that can be registered in [MainKeyboardView] to enhance

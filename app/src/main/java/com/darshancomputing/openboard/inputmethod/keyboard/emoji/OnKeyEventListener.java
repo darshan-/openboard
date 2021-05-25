@@ -1,6 +1,6 @@
-package org.dslul.openboard.inputmethod.keyboard.emoji;
+package com.darshancomputing.openboard.inputmethod.keyboard.emoji;
 
-import org.dslul.openboard.inputmethod.keyboard.Key;
+import com.darshancomputing.openboard.inputmethod.keyboard.Key;
 
 /**
  * Interface to handle touch events from non-View-based elements

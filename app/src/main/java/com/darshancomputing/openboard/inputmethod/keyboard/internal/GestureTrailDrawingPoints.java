@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.keyboard.internal;
+package com.darshancomputing.openboard.inputmethod.keyboard.internal;
 
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -23,8 +23,8 @@ import android.graphics.Path;
 import android.graphics.Rect;
 import android.os.SystemClock;
 
-import org.dslul.openboard.inputmethod.latin.common.Constants;
-import org.dslul.openboard.inputmethod.latin.common.ResizableIntArray;
+import com.darshancomputing.openboard.inputmethod.latin.common.Constants;
+import com.darshancomputing.openboard.inputmethod.latin.common.ResizableIntArray;
 
 /**
  * This class holds drawing points to represent a gesture trail. The gesture trail may contain

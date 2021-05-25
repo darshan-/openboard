@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.keyboard.internal;
+package com.darshancomputing.openboard.inputmethod.keyboard.internal;
 
 import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
 
-import org.dslul.openboard.inputmethod.keyboard.Key;
-import org.dslul.openboard.inputmethod.latin.common.CoordinateUtils;
-import org.dslul.openboard.inputmethod.latin.utils.ViewLayoutUtils;
+import com.darshancomputing.openboard.inputmethod.keyboard.Key;
+import com.darshancomputing.openboard.inputmethod.latin.common.CoordinateUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.ViewLayoutUtils;
 
 import java.util.ArrayDeque;
 import java.util.HashMap;

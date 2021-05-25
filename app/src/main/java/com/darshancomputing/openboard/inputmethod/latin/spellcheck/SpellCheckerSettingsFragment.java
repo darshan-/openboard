@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.spellcheck;
+package com.darshancomputing.openboard.inputmethod.latin.spellcheck;
 
 import android.Manifest;
 import android.content.SharedPreferences;
@@ -23,14 +23,14 @@ import android.preference.PreferenceScreen;
 import android.preference.SwitchPreference;
 import android.text.TextUtils;
 
-import org.dslul.openboard.inputmethod.latin.R;
-import org.dslul.openboard.inputmethod.latin.permissions.PermissionsManager;
-import org.dslul.openboard.inputmethod.latin.permissions.PermissionsUtil;
-import org.dslul.openboard.inputmethod.latin.settings.SubScreenFragment;
-import org.dslul.openboard.inputmethod.latin.settings.TwoStatePreferenceHelper;
-import org.dslul.openboard.inputmethod.latin.utils.ApplicationUtils;
+import com.darshancomputing.openboard.inputmethod.latin.R;
+import com.darshancomputing.openboard.inputmethod.latin.permissions.PermissionsManager;
+import com.darshancomputing.openboard.inputmethod.latin.permissions.PermissionsUtil;
+import com.darshancomputing.openboard.inputmethod.latin.settings.SubScreenFragment;
+import com.darshancomputing.openboard.inputmethod.latin.settings.TwoStatePreferenceHelper;
+import com.darshancomputing.openboard.inputmethod.latin.utils.ApplicationUtils;
 
-import static org.dslul.openboard.inputmethod.latin.permissions.PermissionsManager.get;
+import static com.darshancomputing.openboard.inputmethod.latin.permissions.PermissionsManager.get;
 
 /**
  * Preference screen.

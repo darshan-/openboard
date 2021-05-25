@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.utils;
+package com.darshancomputing.openboard.inputmethod.latin.utils;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -24,16 +24,16 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.view.inputmethod.InputMethodSubtype;
 
-import org.dslul.openboard.inputmethod.annotations.UsedForTesting;
-import org.dslul.openboard.inputmethod.latin.AssetFileAddress;
-import org.dslul.openboard.inputmethod.latin.BinaryDictionaryGetter;
-import org.dslul.openboard.inputmethod.latin.R;
-import org.dslul.openboard.inputmethod.latin.RichInputMethodManager;
-import org.dslul.openboard.inputmethod.latin.common.LocaleUtils;
-import org.dslul.openboard.inputmethod.latin.define.DecoderSpecificConstants;
-import org.dslul.openboard.inputmethod.latin.makedict.DictionaryHeader;
-import org.dslul.openboard.inputmethod.latin.makedict.UnsupportedFormatException;
-import org.dslul.openboard.inputmethod.latin.settings.SpacingAndPunctuations;
+import com.darshancomputing.openboard.inputmethod.annotations.UsedForTesting;
+import com.darshancomputing.openboard.inputmethod.latin.AssetFileAddress;
+import com.darshancomputing.openboard.inputmethod.latin.BinaryDictionaryGetter;
+import com.darshancomputing.openboard.inputmethod.latin.R;
+import com.darshancomputing.openboard.inputmethod.latin.RichInputMethodManager;
+import com.darshancomputing.openboard.inputmethod.latin.common.LocaleUtils;
+import com.darshancomputing.openboard.inputmethod.latin.define.DecoderSpecificConstants;
+import com.darshancomputing.openboard.inputmethod.latin.makedict.DictionaryHeader;
+import com.darshancomputing.openboard.inputmethod.latin.makedict.UnsupportedFormatException;
+import com.darshancomputing.openboard.inputmethod.latin.settings.SpacingAndPunctuations;
 
 import java.io.File;
 import java.io.IOException;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.keyboard;
+package com.darshancomputing.openboard.inputmethod.keyboard;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -32,12 +32,12 @@ import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.View;
 
-import org.dslul.openboard.inputmethod.keyboard.internal.KeyDrawParams;
-import org.dslul.openboard.inputmethod.keyboard.internal.KeyVisualAttributes;
-import org.dslul.openboard.inputmethod.latin.R;
-import org.dslul.openboard.inputmethod.latin.common.Constants;
-import org.dslul.openboard.inputmethod.latin.settings.Settings;
-import org.dslul.openboard.inputmethod.latin.utils.TypefaceUtils;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.KeyDrawParams;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.KeyVisualAttributes;
+import com.darshancomputing.openboard.inputmethod.latin.R;
+import com.darshancomputing.openboard.inputmethod.latin.common.Constants;
+import com.darshancomputing.openboard.inputmethod.latin.settings.Settings;
+import com.darshancomputing.openboard.inputmethod.latin.utils.TypefaceUtils;
 
 import java.util.HashSet;
 

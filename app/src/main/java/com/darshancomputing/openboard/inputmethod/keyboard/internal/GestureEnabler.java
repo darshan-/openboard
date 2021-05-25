@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.keyboard.internal;
+package com.darshancomputing.openboard.inputmethod.keyboard.internal;
 
-import org.dslul.openboard.inputmethod.accessibility.AccessibilityUtils;
+import com.darshancomputing.openboard.inputmethod.accessibility.AccessibilityUtils;
 
 public final class GestureEnabler {
     /** True if we should handle gesture events. */

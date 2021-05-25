@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin;
+package com.darshancomputing.openboard.inputmethod.latin;
 
 import android.content.Context;
 import android.media.AudioManager;
@@ -22,8 +22,8 @@ import android.os.Vibrator;
 import android.view.HapticFeedbackConstants;
 import android.view.View;
 
-import org.dslul.openboard.inputmethod.latin.common.Constants;
-import org.dslul.openboard.inputmethod.latin.settings.SettingsValues;
+import com.darshancomputing.openboard.inputmethod.latin.common.Constants;
+import com.darshancomputing.openboard.inputmethod.latin.settings.SettingsValues;
 
 /**
  * This class gathers audio feedback and haptic feedback functions.

@@ -1,19 +1,19 @@
-package org.dslul.openboard.inputmethod.dictionarypack
+package com.darshancomputing.openboard.inputmethod.dictionarypack
 
 import android.content.ContentValues
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.text.TextUtils
 import android.util.Log
-import org.dslul.openboard.inputmethod.dictionarypack.ActionBatch.DisableAction
-import org.dslul.openboard.inputmethod.dictionarypack.ActionBatch.EnableAction
-import org.dslul.openboard.inputmethod.dictionarypack.ActionBatch.FinishDeleteAction
-import org.dslul.openboard.inputmethod.dictionarypack.ActionBatch.ForgetAction
-import org.dslul.openboard.inputmethod.dictionarypack.ActionBatch.MakeAvailableAction
-import org.dslul.openboard.inputmethod.dictionarypack.ActionBatch.MarkPreInstalledAction
-import org.dslul.openboard.inputmethod.dictionarypack.ActionBatch.StartDeleteAction
-import org.dslul.openboard.inputmethod.dictionarypack.ActionBatch.UpdateDataAction
-import org.dslul.openboard.inputmethod.latin.utils.DebugLogUtils
+import com.darshancomputing.openboard.inputmethod.dictionarypack.ActionBatch.DisableAction
+import com.darshancomputing.openboard.inputmethod.dictionarypack.ActionBatch.EnableAction
+import com.darshancomputing.openboard.inputmethod.dictionarypack.ActionBatch.FinishDeleteAction
+import com.darshancomputing.openboard.inputmethod.dictionarypack.ActionBatch.ForgetAction
+import com.darshancomputing.openboard.inputmethod.dictionarypack.ActionBatch.MakeAvailableAction
+import com.darshancomputing.openboard.inputmethod.dictionarypack.ActionBatch.MarkPreInstalledAction
+import com.darshancomputing.openboard.inputmethod.dictionarypack.ActionBatch.StartDeleteAction
+import com.darshancomputing.openboard.inputmethod.dictionarypack.ActionBatch.UpdateDataAction
+import com.darshancomputing.openboard.inputmethod.latin.utils.DebugLogUtils
 import java.util.*
 
 /**

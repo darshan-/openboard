@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.settings;
+package com.darshancomputing.openboard.inputmethod.latin.settings;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -24,16 +24,16 @@ import android.content.res.Resources;
 import android.os.Build;
 import android.util.Log;
 
-import org.dslul.openboard.inputmethod.latin.AudioAndHapticFeedbackManager;
-import org.dslul.openboard.inputmethod.latin.InputAttributes;
-import org.dslul.openboard.inputmethod.latin.R;
-import org.dslul.openboard.inputmethod.latin.common.StringUtils;
-import org.dslul.openboard.inputmethod.latin.utils.AdditionalSubtypeUtils;
-import org.dslul.openboard.inputmethod.latin.utils.DeviceProtectedUtils;
-import org.dslul.openboard.inputmethod.latin.utils.JniUtils;
-import org.dslul.openboard.inputmethod.latin.utils.ResourceUtils;
-import org.dslul.openboard.inputmethod.latin.utils.RunInLocale;
-import org.dslul.openboard.inputmethod.latin.utils.StatsUtils;
+import com.darshancomputing.openboard.inputmethod.latin.AudioAndHapticFeedbackManager;
+import com.darshancomputing.openboard.inputmethod.latin.InputAttributes;
+import com.darshancomputing.openboard.inputmethod.latin.R;
+import com.darshancomputing.openboard.inputmethod.latin.common.StringUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.AdditionalSubtypeUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.DeviceProtectedUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.JniUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.ResourceUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.RunInLocale;
+import com.darshancomputing.openboard.inputmethod.latin.utils.StatsUtils;
 
 import java.util.Collections;
 import java.util.Locale;

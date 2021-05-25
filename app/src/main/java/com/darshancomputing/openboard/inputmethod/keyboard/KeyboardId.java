@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.keyboard;
+package com.darshancomputing.openboard.inputmethod.keyboard;
 
 import android.text.InputType;
 import android.text.TextUtils;
 import android.view.inputmethod.EditorInfo;
 
-import org.dslul.openboard.inputmethod.compat.EditorInfoCompatUtils;
-import org.dslul.openboard.inputmethod.latin.RichInputMethodSubtype;
-import org.dslul.openboard.inputmethod.latin.utils.InputTypeUtils;
+import com.darshancomputing.openboard.inputmethod.compat.EditorInfoCompatUtils;
+import com.darshancomputing.openboard.inputmethod.latin.RichInputMethodSubtype;
+import com.darshancomputing.openboard.inputmethod.latin.utils.InputTypeUtils;
 
 import java.util.Arrays;
 import java.util.Locale;
 
-import static org.dslul.openboard.inputmethod.latin.common.Constants.Subtype.ExtraValue.KEYBOARD_LAYOUT_SET;
+import static com.darshancomputing.openboard.inputmethod.latin.common.Constants.Subtype.ExtraValue.KEYBOARD_LAYOUT_SET;
 
 /**
  * Unique identifier for each keyboard type.

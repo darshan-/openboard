@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.settings;
+package com.darshancomputing.openboard.inputmethod.latin.settings;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -23,9 +23,9 @@ import android.media.AudioManager;
 import android.os.Bundle;
 import android.preference.ListPreference;
 
-import org.dslul.openboard.inputmethod.latin.AudioAndHapticFeedbackManager;
-import org.dslul.openboard.inputmethod.latin.R;
-import org.dslul.openboard.inputmethod.latin.SystemBroadcastReceiver;
+import com.darshancomputing.openboard.inputmethod.latin.AudioAndHapticFeedbackManager;
+import com.darshancomputing.openboard.inputmethod.latin.R;
+import com.darshancomputing.openboard.inputmethod.latin.SystemBroadcastReceiver;
 
 /**
  * "Advanced" settings sub screen.

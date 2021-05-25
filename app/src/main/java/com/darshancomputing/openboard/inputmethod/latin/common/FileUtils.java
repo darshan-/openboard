@@ -14,7 +14,7 @@
  * the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.common;
+package com.darshancomputing.openboard.inputmethod.latin.common;
 
 import java.io.File;
 import java.io.FilenameFilter;

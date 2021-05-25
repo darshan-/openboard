@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.keyboard.internal;
+package com.darshancomputing.openboard.inputmethod.keyboard.internal;
 
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
@@ -24,10 +24,10 @@ import android.graphics.Rect;
 import android.graphics.RectF;
 import android.text.TextUtils;
 
-import org.dslul.openboard.inputmethod.keyboard.PointerTracker;
-import org.dslul.openboard.inputmethod.latin.R;
-import org.dslul.openboard.inputmethod.latin.SuggestedWords;
-import org.dslul.openboard.inputmethod.latin.common.CoordinateUtils;
+import com.darshancomputing.openboard.inputmethod.keyboard.PointerTracker;
+import com.darshancomputing.openboard.inputmethod.latin.R;
+import com.darshancomputing.openboard.inputmethod.latin.SuggestedWords;
+import com.darshancomputing.openboard.inputmethod.latin.common.CoordinateUtils;
 
 import javax.annotation.Nonnull;
 

@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.utils;
+package com.darshancomputing.openboard.inputmethod.latin.utils;
 
 import android.util.Log;
 
-import org.dslul.openboard.inputmethod.annotations.UsedForTesting;
+import com.darshancomputing.openboard.inputmethod.annotations.UsedForTesting;
 
 import java.lang.Thread.UncaughtExceptionHandler;
 import java.util.concurrent.Executors;

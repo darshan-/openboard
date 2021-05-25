@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.suggestions;
+package com.darshancomputing.openboard.inputmethod.latin.suggestions;
 
-import org.dslul.openboard.inputmethod.latin.SuggestedWords;
+import com.darshancomputing.openboard.inputmethod.latin.SuggestedWords;
 
 /**
  * An object that gives basic control of a suggestion strip and some info on it.

@@ -14,22 +14,22 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.utils;
+package com.darshancomputing.openboard.inputmethod.latin.utils;
 
-import org.dslul.openboard.inputmethod.latin.settings.AdvancedSettingsFragment;
-import org.dslul.openboard.inputmethod.latin.settings.AppearanceSettingsFragment;
-import org.dslul.openboard.inputmethod.latin.settings.CorrectionSettingsFragment;
-import org.dslul.openboard.inputmethod.latin.settings.CustomInputStyleSettingsFragment;
-import org.dslul.openboard.inputmethod.latin.settings.DebugSettingsFragment;
-import org.dslul.openboard.inputmethod.latin.settings.GestureSettingsFragment;
-import org.dslul.openboard.inputmethod.latin.settings.PreferencesSettingsFragment;
-import org.dslul.openboard.inputmethod.latin.settings.SettingsFragment;
-import org.dslul.openboard.inputmethod.latin.settings.ThemeSettingsFragment;
-import org.dslul.openboard.inputmethod.latin.spellcheck.SpellCheckerSettingsFragment;
-import org.dslul.openboard.inputmethod.latin.userdictionary.UserDictionaryAddWordFragment;
-import org.dslul.openboard.inputmethod.latin.userdictionary.UserDictionaryList;
-import org.dslul.openboard.inputmethod.latin.userdictionary.UserDictionaryLocalePicker;
-import org.dslul.openboard.inputmethod.latin.userdictionary.UserDictionarySettings;
+import com.darshancomputing.openboard.inputmethod.latin.settings.AdvancedSettingsFragment;
+import com.darshancomputing.openboard.inputmethod.latin.settings.AppearanceSettingsFragment;
+import com.darshancomputing.openboard.inputmethod.latin.settings.CorrectionSettingsFragment;
+import com.darshancomputing.openboard.inputmethod.latin.settings.CustomInputStyleSettingsFragment;
+import com.darshancomputing.openboard.inputmethod.latin.settings.DebugSettingsFragment;
+import com.darshancomputing.openboard.inputmethod.latin.settings.GestureSettingsFragment;
+import com.darshancomputing.openboard.inputmethod.latin.settings.PreferencesSettingsFragment;
+import com.darshancomputing.openboard.inputmethod.latin.settings.SettingsFragment;
+import com.darshancomputing.openboard.inputmethod.latin.settings.ThemeSettingsFragment;
+import com.darshancomputing.openboard.inputmethod.latin.spellcheck.SpellCheckerSettingsFragment;
+import com.darshancomputing.openboard.inputmethod.latin.userdictionary.UserDictionaryAddWordFragment;
+import com.darshancomputing.openboard.inputmethod.latin.userdictionary.UserDictionaryList;
+import com.darshancomputing.openboard.inputmethod.latin.userdictionary.UserDictionaryLocalePicker;
+import com.darshancomputing.openboard.inputmethod.latin.userdictionary.UserDictionarySettings;
 
 import java.util.HashSet;
 

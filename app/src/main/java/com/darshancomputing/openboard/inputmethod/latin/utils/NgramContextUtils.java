@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.utils;
+package com.darshancomputing.openboard.inputmethod.latin.utils;
 
-import org.dslul.openboard.inputmethod.latin.NgramContext;
-import org.dslul.openboard.inputmethod.latin.NgramContext.WordInfo;
-import org.dslul.openboard.inputmethod.latin.define.DecoderSpecificConstants;
-import org.dslul.openboard.inputmethod.latin.settings.SpacingAndPunctuations;
+import com.darshancomputing.openboard.inputmethod.latin.NgramContext;
+import com.darshancomputing.openboard.inputmethod.latin.NgramContext.WordInfo;
+import com.darshancomputing.openboard.inputmethod.latin.define.DecoderSpecificConstants;
+import com.darshancomputing.openboard.inputmethod.latin.settings.SpacingAndPunctuations;
 
 import java.util.Arrays;
 import java.util.regex.Pattern;

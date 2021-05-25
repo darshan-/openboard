@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.inputlogic;
+package com.darshancomputing.openboard.inputmethod.latin.inputlogic;
 
 import android.os.Handler;
 import android.os.HandlerThread;
 import android.os.Message;
 
-import org.dslul.openboard.inputmethod.latin.LatinIME;
-import org.dslul.openboard.inputmethod.latin.Suggest.OnGetSuggestedWordsCallback;
-import org.dslul.openboard.inputmethod.latin.SuggestedWords;
-import org.dslul.openboard.inputmethod.latin.common.InputPointers;
+import com.darshancomputing.openboard.inputmethod.latin.LatinIME;
+import com.darshancomputing.openboard.inputmethod.latin.Suggest.OnGetSuggestedWordsCallback;
+import com.darshancomputing.openboard.inputmethod.latin.SuggestedWords;
+import com.darshancomputing.openboard.inputmethod.latin.common.InputPointers;
 
 /**
  * A helper to manage deferred tasks for the input logic.

@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin;
+package com.darshancomputing.openboard.inputmethod.latin;
 
 import android.os.Build;
 import android.util.Log;
 import android.view.inputmethod.InputMethodSubtype;
 
-import org.dslul.openboard.inputmethod.compat.InputMethodSubtypeCompatUtils;
-import org.dslul.openboard.inputmethod.latin.common.Constants;
-import org.dslul.openboard.inputmethod.latin.common.LocaleUtils;
-import org.dslul.openboard.inputmethod.latin.utils.SubtypeLocaleUtils;
+import com.darshancomputing.openboard.inputmethod.compat.InputMethodSubtypeCompatUtils;
+import com.darshancomputing.openboard.inputmethod.latin.common.Constants;
+import com.darshancomputing.openboard.inputmethod.latin.common.LocaleUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.SubtypeLocaleUtils;
 
 import java.util.HashMap;
 import java.util.Locale;
@@ -31,7 +31,7 @@ import java.util.Locale;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
-import static org.dslul.openboard.inputmethod.latin.common.Constants.Subtype.KEYBOARD_MODE;
+import static com.darshancomputing.openboard.inputmethod.latin.common.Constants.Subtype.KEYBOARD_MODE;
 
 /**
  * Enrichment class for InputMethodSubtype to enable concurrent multi-lingual input.

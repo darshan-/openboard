@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.keyboard;
+package com.darshancomputing.openboard.inputmethod.keyboard;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -27,20 +27,20 @@ import android.util.Xml;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodSubtype;
 
-import org.dslul.openboard.inputmethod.compat.EditorInfoCompatUtils;
-import org.dslul.openboard.inputmethod.compat.InputMethodSubtypeCompatUtils;
-import org.dslul.openboard.inputmethod.compat.UserManagerCompatUtils;
-import org.dslul.openboard.inputmethod.keyboard.internal.KeyboardBuilder;
-import org.dslul.openboard.inputmethod.keyboard.internal.KeyboardParams;
-import org.dslul.openboard.inputmethod.keyboard.internal.UniqueKeysCache;
-import org.dslul.openboard.inputmethod.latin.InputAttributes;
-import org.dslul.openboard.inputmethod.latin.R;
-import org.dslul.openboard.inputmethod.latin.RichInputMethodSubtype;
-import org.dslul.openboard.inputmethod.latin.common.StringUtils;
-import org.dslul.openboard.inputmethod.latin.utils.InputTypeUtils;
-import org.dslul.openboard.inputmethod.latin.utils.ScriptUtils;
-import org.dslul.openboard.inputmethod.latin.utils.SubtypeLocaleUtils;
-import org.dslul.openboard.inputmethod.latin.utils.XmlParseUtils;
+import com.darshancomputing.openboard.inputmethod.compat.EditorInfoCompatUtils;
+import com.darshancomputing.openboard.inputmethod.compat.InputMethodSubtypeCompatUtils;
+import com.darshancomputing.openboard.inputmethod.compat.UserManagerCompatUtils;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.KeyboardBuilder;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.KeyboardParams;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.UniqueKeysCache;
+import com.darshancomputing.openboard.inputmethod.latin.InputAttributes;
+import com.darshancomputing.openboard.inputmethod.latin.R;
+import com.darshancomputing.openboard.inputmethod.latin.RichInputMethodSubtype;
+import com.darshancomputing.openboard.inputmethod.latin.common.StringUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.InputTypeUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.ScriptUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.SubtypeLocaleUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.XmlParseUtils;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 
@@ -51,8 +51,8 @@ import java.util.HashMap;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
-import static org.dslul.openboard.inputmethod.latin.common.Constants.ImeOption.FORCE_ASCII;
-import static org.dslul.openboard.inputmethod.latin.common.Constants.ImeOption.NO_SETTINGS_KEY;
+import static com.darshancomputing.openboard.inputmethod.latin.common.Constants.ImeOption.FORCE_ASCII;
+import static com.darshancomputing.openboard.inputmethod.latin.common.Constants.ImeOption.NO_SETTINGS_KEY;
 
 /**
  * This class represents a set of keyboard layouts. Each of them represents a different keyboard

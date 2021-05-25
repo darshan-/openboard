@@ -1,9 +1,9 @@
-package org.dslul.openboard.inputmethod.event
+package com.darshancomputing.openboard.inputmethod.event
 
-import org.dslul.openboard.inputmethod.annotations.ExternallyReferenced
-import org.dslul.openboard.inputmethod.latin.SuggestedWords.SuggestedWordInfo
-import org.dslul.openboard.inputmethod.latin.common.Constants
-import org.dslul.openboard.inputmethod.latin.common.StringUtils
+import com.darshancomputing.openboard.inputmethod.annotations.ExternallyReferenced
+import com.darshancomputing.openboard.inputmethod.latin.SuggestedWords.SuggestedWordInfo
+import com.darshancomputing.openboard.inputmethod.latin.common.Constants
+import com.darshancomputing.openboard.inputmethod.latin.common.StringUtils
 
 /**
  * Class representing a generic input event as handled by Latin IME.

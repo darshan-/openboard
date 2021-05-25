@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.personalization;
+package com.darshancomputing.openboard.inputmethod.latin.personalization;
 
 import android.content.Context;
 
-import org.dslul.openboard.inputmethod.annotations.ExternallyReferenced;
-import org.dslul.openboard.inputmethod.annotations.UsedForTesting;
-import org.dslul.openboard.inputmethod.latin.BinaryDictionary;
-import org.dslul.openboard.inputmethod.latin.Dictionary;
-import org.dslul.openboard.inputmethod.latin.ExpandableBinaryDictionary;
-import org.dslul.openboard.inputmethod.latin.NgramContext;
-import org.dslul.openboard.inputmethod.latin.makedict.DictionaryHeader;
+import com.darshancomputing.openboard.inputmethod.annotations.ExternallyReferenced;
+import com.darshancomputing.openboard.inputmethod.annotations.UsedForTesting;
+import com.darshancomputing.openboard.inputmethod.latin.BinaryDictionary;
+import com.darshancomputing.openboard.inputmethod.latin.Dictionary;
+import com.darshancomputing.openboard.inputmethod.latin.ExpandableBinaryDictionary;
+import com.darshancomputing.openboard.inputmethod.latin.NgramContext;
+import com.darshancomputing.openboard.inputmethod.latin.makedict.DictionaryHeader;
 
 import java.io.File;
 import java.util.Locale;

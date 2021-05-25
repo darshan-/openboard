@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.keyboard.emoji;
+package com.darshancomputing.openboard.inputmethod.keyboard.emoji;
 
 import android.content.Context;
 import android.graphics.Canvas;

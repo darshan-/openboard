@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin;
+package com.darshancomputing.openboard.inputmethod.latin;
 
 import android.content.Context;
 import android.util.LruCache;
 
-import org.dslul.openboard.inputmethod.annotations.UsedForTesting;
-import org.dslul.openboard.inputmethod.keyboard.Keyboard;
-import org.dslul.openboard.inputmethod.latin.common.ComposedData;
-import org.dslul.openboard.inputmethod.latin.settings.SettingsValuesForSuggestion;
-import org.dslul.openboard.inputmethod.latin.utils.SuggestionResults;
+import com.darshancomputing.openboard.inputmethod.annotations.UsedForTesting;
+import com.darshancomputing.openboard.inputmethod.keyboard.Keyboard;
+import com.darshancomputing.openboard.inputmethod.latin.common.ComposedData;
+import com.darshancomputing.openboard.inputmethod.latin.settings.SettingsValuesForSuggestion;
+import com.darshancomputing.openboard.inputmethod.latin.utils.SuggestionResults;
 
 import java.io.File;
 import java.util.ArrayList;

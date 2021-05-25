@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.personalization;
+package com.darshancomputing.openboard.inputmethod.latin.personalization;
 
 import android.content.Context;
 import android.util.Log;
 
-import org.dslul.openboard.inputmethod.latin.common.FileUtils;
+import com.darshancomputing.openboard.inputmethod.latin.common.FileUtils;
 
 import java.io.File;
 import java.io.FilenameFilter;

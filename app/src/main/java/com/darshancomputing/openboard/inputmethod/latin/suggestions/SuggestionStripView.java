@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.suggestions;
+package com.darshancomputing.openboard.inputmethod.latin.suggestions;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -36,19 +36,19 @@ import android.widget.ImageButton;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import org.dslul.openboard.inputmethod.accessibility.AccessibilityUtils;
-import org.dslul.openboard.inputmethod.keyboard.Keyboard;
-import org.dslul.openboard.inputmethod.keyboard.MainKeyboardView;
-import org.dslul.openboard.inputmethod.keyboard.MoreKeysPanel;
-import org.dslul.openboard.inputmethod.latin.AudioAndHapticFeedbackManager;
-import org.dslul.openboard.inputmethod.latin.R;
-import org.dslul.openboard.inputmethod.latin.SuggestedWords;
-import org.dslul.openboard.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
-import org.dslul.openboard.inputmethod.latin.common.Constants;
-import org.dslul.openboard.inputmethod.latin.define.DebugFlags;
-import org.dslul.openboard.inputmethod.latin.settings.Settings;
-import org.dslul.openboard.inputmethod.latin.settings.SettingsValues;
-import org.dslul.openboard.inputmethod.latin.suggestions.MoreSuggestionsView.MoreSuggestionsListener;
+import com.darshancomputing.openboard.inputmethod.accessibility.AccessibilityUtils;
+import com.darshancomputing.openboard.inputmethod.keyboard.Keyboard;
+import com.darshancomputing.openboard.inputmethod.keyboard.MainKeyboardView;
+import com.darshancomputing.openboard.inputmethod.keyboard.MoreKeysPanel;
+import com.darshancomputing.openboard.inputmethod.latin.AudioAndHapticFeedbackManager;
+import com.darshancomputing.openboard.inputmethod.latin.R;
+import com.darshancomputing.openboard.inputmethod.latin.SuggestedWords;
+import com.darshancomputing.openboard.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
+import com.darshancomputing.openboard.inputmethod.latin.common.Constants;
+import com.darshancomputing.openboard.inputmethod.latin.define.DebugFlags;
+import com.darshancomputing.openboard.inputmethod.latin.settings.Settings;
+import com.darshancomputing.openboard.inputmethod.latin.settings.SettingsValues;
+import com.darshancomputing.openboard.inputmethod.latin.suggestions.MoreSuggestionsView.MoreSuggestionsListener;
 
 import java.util.ArrayList;
 

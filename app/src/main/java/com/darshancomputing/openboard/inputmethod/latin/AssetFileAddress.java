@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin;
+package com.darshancomputing.openboard.inputmethod.latin;
 
-import org.dslul.openboard.inputmethod.latin.common.FileUtils;
+import com.darshancomputing.openboard.inputmethod.latin.common.FileUtils;
 
 import java.io.File;
 

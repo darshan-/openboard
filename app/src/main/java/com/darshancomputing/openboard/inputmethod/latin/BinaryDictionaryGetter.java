@@ -14,19 +14,19 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin;
+package com.darshancomputing.openboard.inputmethod.latin;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.res.AssetFileDescriptor;
 import android.util.Log;
 
-import org.dslul.openboard.inputmethod.latin.common.LocaleUtils;
-import org.dslul.openboard.inputmethod.latin.define.DecoderSpecificConstants;
-import org.dslul.openboard.inputmethod.latin.makedict.DictionaryHeader;
-import org.dslul.openboard.inputmethod.latin.makedict.UnsupportedFormatException;
-import org.dslul.openboard.inputmethod.latin.utils.BinaryDictionaryUtils;
-import org.dslul.openboard.inputmethod.latin.utils.DictionaryInfoUtils;
+import com.darshancomputing.openboard.inputmethod.latin.common.LocaleUtils;
+import com.darshancomputing.openboard.inputmethod.latin.define.DecoderSpecificConstants;
+import com.darshancomputing.openboard.inputmethod.latin.makedict.DictionaryHeader;
+import com.darshancomputing.openboard.inputmethod.latin.makedict.UnsupportedFormatException;
+import com.darshancomputing.openboard.inputmethod.latin.utils.BinaryDictionaryUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.DictionaryInfoUtils;
 
 import java.io.File;
 import java.io.IOException;

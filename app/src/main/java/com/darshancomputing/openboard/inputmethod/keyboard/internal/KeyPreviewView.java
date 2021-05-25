@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.keyboard.internal;
+package com.darshancomputing.openboard.inputmethod.keyboard.internal;
 
 import android.content.Context;
 import android.graphics.Rect;
@@ -26,8 +26,8 @@ import android.util.TypedValue;
 import android.view.Gravity;
 import android.widget.TextView;
 
-import org.dslul.openboard.inputmethod.keyboard.Key;
-import org.dslul.openboard.inputmethod.latin.R;
+import com.darshancomputing.openboard.inputmethod.keyboard.Key;
+import com.darshancomputing.openboard.inputmethod.latin.R;
 
 import java.util.HashSet;
 

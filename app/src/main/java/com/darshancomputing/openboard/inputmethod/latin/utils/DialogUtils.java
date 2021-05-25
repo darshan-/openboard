@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.utils;
+package com.darshancomputing.openboard.inputmethod.latin.utils;
 
 import android.content.Context;
 import android.view.ContextThemeWrapper;
 
-import org.dslul.openboard.inputmethod.latin.R;
+import com.darshancomputing.openboard.inputmethod.latin.R;
 
 public final class DialogUtils {
     private DialogUtils() {

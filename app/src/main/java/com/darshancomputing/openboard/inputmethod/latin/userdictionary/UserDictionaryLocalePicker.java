@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.userdictionary;
+package com.darshancomputing.openboard.inputmethod.latin.userdictionary;
 
 import android.app.Fragment;
 

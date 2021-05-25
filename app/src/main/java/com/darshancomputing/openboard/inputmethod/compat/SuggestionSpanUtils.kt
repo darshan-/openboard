@@ -1,4 +1,4 @@
-package org.dslul.openboard.inputmethod.compat
+package com.darshancomputing.openboard.inputmethod.compat
 
 import android.content.Context
 import android.text.Spannable
@@ -6,11 +6,11 @@ import android.text.SpannableString
 import android.text.Spanned
 import android.text.TextUtils
 import android.text.style.SuggestionSpan
-import org.dslul.openboard.inputmethod.annotations.UsedForTesting
-import org.dslul.openboard.inputmethod.latin.SuggestedWords
-import org.dslul.openboard.inputmethod.latin.SuggestedWords.SuggestedWordInfo
-import org.dslul.openboard.inputmethod.latin.common.LocaleUtils
-import org.dslul.openboard.inputmethod.latin.define.DebugFlags
+import com.darshancomputing.openboard.inputmethod.annotations.UsedForTesting
+import com.darshancomputing.openboard.inputmethod.latin.SuggestedWords
+import com.darshancomputing.openboard.inputmethod.latin.SuggestedWords.SuggestedWordInfo
+import com.darshancomputing.openboard.inputmethod.latin.common.LocaleUtils
+import com.darshancomputing.openboard.inputmethod.latin.define.DebugFlags
 import java.util.*
 
 object SuggestionSpanUtils {

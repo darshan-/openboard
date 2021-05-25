@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.settings;
+package com.darshancomputing.openboard.inputmethod.latin.settings;
 
 public class SettingsValuesForSuggestion {
     public final boolean mBlockPotentiallyOffensive;

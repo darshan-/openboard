@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.keyboard;
+package com.darshancomputing.openboard.inputmethod.keyboard;
 
 import android.view.View;
 import android.view.ViewGroup;
-import org.dslul.openboard.inputmethod.keyboard.emoji.OnKeyEventListener;
+import com.darshancomputing.openboard.inputmethod.keyboard.emoji.OnKeyEventListener;
 
 public interface MoreKeysPanel {
     interface Controller {

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.dslul.openboard.inputmethod.event
+package com.darshancomputing.openboard.inputmethod.event
 
 import android.view.KeyEvent
 

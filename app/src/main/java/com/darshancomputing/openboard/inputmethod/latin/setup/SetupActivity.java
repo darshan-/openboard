@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.setup;
+package com.darshancomputing.openboard.inputmethod.latin.setup;
 
 import android.app.Activity;
 import android.content.Intent;

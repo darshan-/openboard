@@ -14,28 +14,28 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin;
+package com.darshancomputing.openboard.inputmethod.latin;
 
 import android.text.TextUtils;
 import android.util.Log;
 import android.util.SparseArray;
 
-import org.dslul.openboard.inputmethod.annotations.UsedForTesting;
-import org.dslul.openboard.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
-import org.dslul.openboard.inputmethod.latin.common.ComposedData;
-import org.dslul.openboard.inputmethod.latin.common.Constants;
-import org.dslul.openboard.inputmethod.latin.common.FileUtils;
-import org.dslul.openboard.inputmethod.latin.common.InputPointers;
-import org.dslul.openboard.inputmethod.latin.common.StringUtils;
-import org.dslul.openboard.inputmethod.latin.makedict.DictionaryHeader;
-import org.dslul.openboard.inputmethod.latin.makedict.FormatSpec;
-import org.dslul.openboard.inputmethod.latin.makedict.FormatSpec.DictionaryOptions;
-import org.dslul.openboard.inputmethod.latin.makedict.UnsupportedFormatException;
-import org.dslul.openboard.inputmethod.latin.makedict.WordProperty;
-import org.dslul.openboard.inputmethod.latin.settings.SettingsValuesForSuggestion;
-import org.dslul.openboard.inputmethod.latin.utils.BinaryDictionaryUtils;
-import org.dslul.openboard.inputmethod.latin.utils.JniUtils;
-import org.dslul.openboard.inputmethod.latin.utils.WordInputEventForPersonalization;
+import com.darshancomputing.openboard.inputmethod.annotations.UsedForTesting;
+import com.darshancomputing.openboard.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
+import com.darshancomputing.openboard.inputmethod.latin.common.ComposedData;
+import com.darshancomputing.openboard.inputmethod.latin.common.Constants;
+import com.darshancomputing.openboard.inputmethod.latin.common.FileUtils;
+import com.darshancomputing.openboard.inputmethod.latin.common.InputPointers;
+import com.darshancomputing.openboard.inputmethod.latin.common.StringUtils;
+import com.darshancomputing.openboard.inputmethod.latin.makedict.DictionaryHeader;
+import com.darshancomputing.openboard.inputmethod.latin.makedict.FormatSpec;
+import com.darshancomputing.openboard.inputmethod.latin.makedict.FormatSpec.DictionaryOptions;
+import com.darshancomputing.openboard.inputmethod.latin.makedict.UnsupportedFormatException;
+import com.darshancomputing.openboard.inputmethod.latin.makedict.WordProperty;
+import com.darshancomputing.openboard.inputmethod.latin.settings.SettingsValuesForSuggestion;
+import com.darshancomputing.openboard.inputmethod.latin.utils.BinaryDictionaryUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.JniUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.WordInputEventForPersonalization;
 
 import java.io.File;
 import java.util.ArrayList;

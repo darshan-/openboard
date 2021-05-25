@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin;
+package com.darshancomputing.openboard.inputmethod.latin;
 
-import org.dslul.openboard.inputmethod.latin.common.NativeSuggestOptions;
-import org.dslul.openboard.inputmethod.latin.define.DecoderSpecificConstants;
-import org.dslul.openboard.inputmethod.latin.utils.JniUtils;
+import com.darshancomputing.openboard.inputmethod.latin.common.NativeSuggestOptions;
+import com.darshancomputing.openboard.inputmethod.latin.define.DecoderSpecificConstants;
+import com.darshancomputing.openboard.inputmethod.latin.utils.JniUtils;
 
 import java.util.Locale;
 

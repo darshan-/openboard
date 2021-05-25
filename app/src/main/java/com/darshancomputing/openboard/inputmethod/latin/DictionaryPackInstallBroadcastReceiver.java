@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin;
+package com.darshancomputing.openboard.inputmethod.latin;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -25,8 +25,8 @@ import android.content.pm.ProviderInfo;
 import android.net.Uri;
 import android.util.Log;
 
-import org.dslul.openboard.inputmethod.dictionarypack.DictionaryPackConstants;
-import org.dslul.openboard.inputmethod.latin.utils.TargetPackageInfoGetterTask;
+import com.darshancomputing.openboard.inputmethod.dictionarypack.DictionaryPackConstants;
+import com.darshancomputing.openboard.inputmethod.latin.utils.TargetPackageInfoGetterTask;
 
 /**
  * Receives broadcasts pertaining to dictionary management and takes the appropriate action.

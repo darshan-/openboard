@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.keyboard;
+package com.darshancomputing.openboard.inputmethod.keyboard;
 
 import android.content.res.Resources;
 import android.content.res.TypedArray;
@@ -22,24 +22,24 @@ import android.os.SystemClock;
 import android.util.Log;
 import android.view.MotionEvent;
 
-import org.dslul.openboard.inputmethod.keyboard.internal.BatchInputArbiter;
-import org.dslul.openboard.inputmethod.keyboard.internal.BatchInputArbiter.BatchInputArbiterListener;
-import org.dslul.openboard.inputmethod.keyboard.internal.BogusMoveEventDetector;
-import org.dslul.openboard.inputmethod.keyboard.internal.DrawingProxy;
-import org.dslul.openboard.inputmethod.keyboard.internal.GestureEnabler;
-import org.dslul.openboard.inputmethod.keyboard.internal.GestureStrokeDrawingParams;
-import org.dslul.openboard.inputmethod.keyboard.internal.GestureStrokeDrawingPoints;
-import org.dslul.openboard.inputmethod.keyboard.internal.GestureStrokeRecognitionParams;
-import org.dslul.openboard.inputmethod.keyboard.internal.PointerTrackerQueue;
-import org.dslul.openboard.inputmethod.keyboard.internal.TimerProxy;
-import org.dslul.openboard.inputmethod.keyboard.internal.TypingTimeRecorder;
-import org.dslul.openboard.inputmethod.latin.R;
-import org.dslul.openboard.inputmethod.latin.common.Constants;
-import org.dslul.openboard.inputmethod.latin.common.CoordinateUtils;
-import org.dslul.openboard.inputmethod.latin.common.InputPointers;
-import org.dslul.openboard.inputmethod.latin.define.DebugFlags;
-import org.dslul.openboard.inputmethod.latin.settings.Settings;
-import org.dslul.openboard.inputmethod.latin.utils.ResourceUtils;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.BatchInputArbiter;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.BatchInputArbiter.BatchInputArbiterListener;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.BogusMoveEventDetector;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.DrawingProxy;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.GestureEnabler;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.GestureStrokeDrawingParams;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.GestureStrokeDrawingPoints;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.GestureStrokeRecognitionParams;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.PointerTrackerQueue;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.TimerProxy;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.TypingTimeRecorder;
+import com.darshancomputing.openboard.inputmethod.latin.R;
+import com.darshancomputing.openboard.inputmethod.latin.common.Constants;
+import com.darshancomputing.openboard.inputmethod.latin.common.CoordinateUtils;
+import com.darshancomputing.openboard.inputmethod.latin.common.InputPointers;
+import com.darshancomputing.openboard.inputmethod.latin.define.DebugFlags;
+import com.darshancomputing.openboard.inputmethod.latin.settings.Settings;
+import com.darshancomputing.openboard.inputmethod.latin.utils.ResourceUtils;
 
 import java.util.ArrayList;
 

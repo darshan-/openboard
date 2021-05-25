@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.keyboard.internal;
+package com.darshancomputing.openboard.inputmethod.keyboard.internal;
 
 import android.graphics.Typeface;
 
-import org.dslul.openboard.inputmethod.latin.utils.ResourceUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.ResourceUtils;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;

@@ -1,4 +1,4 @@
-package org.dslul.openboard.inputmethod.dictionarypack
+package com.darshancomputing.openboard.inputmethod.dictionarypack
 
 /**
  * Exception thrown when the metadata for the dictionary does not comply to a known format.

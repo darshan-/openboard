@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.setup;
+package com.darshancomputing.openboard.inputmethod.latin.setup;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -27,7 +27,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.dslul.openboard.inputmethod.latin.R;
+import com.darshancomputing.openboard.inputmethod.latin.R;
 
 import androidx.core.view.ViewCompat;
 

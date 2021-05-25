@@ -14,13 +14,13 @@
  * the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.utils;
+package com.darshancomputing.openboard.inputmethod.latin.utils;
 
-import org.dslul.openboard.inputmethod.latin.makedict.DictionaryHeader;
-import org.dslul.openboard.inputmethod.latin.makedict.NgramProperty;
-import org.dslul.openboard.inputmethod.latin.makedict.ProbabilityInfo;
-import org.dslul.openboard.inputmethod.latin.makedict.WeightedString;
-import org.dslul.openboard.inputmethod.latin.makedict.WordProperty;
+import com.darshancomputing.openboard.inputmethod.latin.makedict.DictionaryHeader;
+import com.darshancomputing.openboard.inputmethod.latin.makedict.NgramProperty;
+import com.darshancomputing.openboard.inputmethod.latin.makedict.ProbabilityInfo;
+import com.darshancomputing.openboard.inputmethod.latin.makedict.WeightedString;
+import com.darshancomputing.openboard.inputmethod.latin.makedict.WordProperty;
 
 import java.util.HashMap;
 

@@ -1,4 +1,4 @@
-package org.dslul.openboard.inputmethod.event
+package com.darshancomputing.openboard.inputmethod.event
 
 import java.util.*
 

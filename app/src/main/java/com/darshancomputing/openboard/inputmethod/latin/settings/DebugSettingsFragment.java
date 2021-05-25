@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.settings;
+package com.darshancomputing.openboard.inputmethod.latin.settings;
 
 import android.content.Context;
 import android.content.Intent;
@@ -27,11 +27,11 @@ import android.preference.Preference.OnPreferenceClickListener;
 import android.preference.PreferenceGroup;
 import android.preference.TwoStatePreference;
 
-import org.dslul.openboard.inputmethod.latin.DictionaryDumpBroadcastReceiver;
-import org.dslul.openboard.inputmethod.latin.DictionaryFacilitatorImpl;
-import org.dslul.openboard.inputmethod.latin.R;
-import org.dslul.openboard.inputmethod.latin.utils.ApplicationUtils;
-import org.dslul.openboard.inputmethod.latin.utils.ResourceUtils;
+import com.darshancomputing.openboard.inputmethod.latin.DictionaryDumpBroadcastReceiver;
+import com.darshancomputing.openboard.inputmethod.latin.DictionaryFacilitatorImpl;
+import com.darshancomputing.openboard.inputmethod.latin.R;
+import com.darshancomputing.openboard.inputmethod.latin.utils.ApplicationUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.ResourceUtils;
 
 import java.util.Locale;
 

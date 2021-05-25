@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.keyboard;
+package com.darshancomputing.openboard.inputmethod.keyboard;
 
 import android.content.Context;
 import android.content.res.Configuration;
@@ -25,24 +25,24 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
 
-import org.dslul.openboard.inputmethod.event.Event;
-import org.dslul.openboard.inputmethod.keyboard.KeyboardLayoutSet.KeyboardLayoutSetException;
-import org.dslul.openboard.inputmethod.keyboard.emoji.EmojiPalettesView;
-import org.dslul.openboard.inputmethod.keyboard.internal.KeyboardState;
-import org.dslul.openboard.inputmethod.keyboard.internal.KeyboardTextsSet;
-import org.dslul.openboard.inputmethod.latin.InputView;
-import org.dslul.openboard.inputmethod.latin.LatinIME;
-import org.dslul.openboard.inputmethod.latin.R;
-import org.dslul.openboard.inputmethod.latin.RichInputMethodManager;
-import org.dslul.openboard.inputmethod.latin.WordComposer;
-import org.dslul.openboard.inputmethod.latin.define.ProductionFlags;
-import org.dslul.openboard.inputmethod.latin.settings.Settings;
-import org.dslul.openboard.inputmethod.latin.settings.SettingsValues;
-import org.dslul.openboard.inputmethod.latin.utils.CapsModeUtils;
-import org.dslul.openboard.inputmethod.latin.utils.LanguageOnSpacebarUtils;
-import org.dslul.openboard.inputmethod.latin.utils.RecapitalizeStatus;
-import org.dslul.openboard.inputmethod.latin.utils.ResourceUtils;
-import org.dslul.openboard.inputmethod.latin.utils.ScriptUtils;
+import com.darshancomputing.openboard.inputmethod.event.Event;
+import com.darshancomputing.openboard.inputmethod.keyboard.KeyboardLayoutSet.KeyboardLayoutSetException;
+import com.darshancomputing.openboard.inputmethod.keyboard.emoji.EmojiPalettesView;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.KeyboardState;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.KeyboardTextsSet;
+import com.darshancomputing.openboard.inputmethod.latin.InputView;
+import com.darshancomputing.openboard.inputmethod.latin.LatinIME;
+import com.darshancomputing.openboard.inputmethod.latin.R;
+import com.darshancomputing.openboard.inputmethod.latin.RichInputMethodManager;
+import com.darshancomputing.openboard.inputmethod.latin.WordComposer;
+import com.darshancomputing.openboard.inputmethod.latin.define.ProductionFlags;
+import com.darshancomputing.openboard.inputmethod.latin.settings.Settings;
+import com.darshancomputing.openboard.inputmethod.latin.settings.SettingsValues;
+import com.darshancomputing.openboard.inputmethod.latin.utils.CapsModeUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.LanguageOnSpacebarUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.RecapitalizeStatus;
+import com.darshancomputing.openboard.inputmethod.latin.utils.ResourceUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.ScriptUtils;
 
 import javax.annotation.Nonnull;
 

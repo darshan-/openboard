@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.userdictionary;
+package com.darshancomputing.openboard.inputmethod.latin.userdictionary;
 
 import android.app.ListFragment;
 import android.content.ContentResolver;
@@ -37,7 +37,7 @@ import android.widget.SectionIndexer;
 import android.widget.SimpleCursorAdapter;
 import android.widget.TextView;
 
-import org.dslul.openboard.inputmethod.latin.R;
+import com.darshancomputing.openboard.inputmethod.latin.R;
 
 import java.util.Locale;
 

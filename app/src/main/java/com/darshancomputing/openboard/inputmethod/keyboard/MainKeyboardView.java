@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.keyboard;
+package com.darshancomputing.openboard.inputmethod.keyboard;
 
 import android.animation.AnimatorInflater;
 import android.animation.ObjectAnimator;
@@ -34,30 +34,30 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 
-import org.dslul.openboard.inputmethod.accessibility.AccessibilityUtils;
-import org.dslul.openboard.inputmethod.accessibility.MainKeyboardAccessibilityDelegate;
-import org.dslul.openboard.inputmethod.annotations.ExternallyReferenced;
-import org.dslul.openboard.inputmethod.keyboard.internal.DrawingPreviewPlacerView;
-import org.dslul.openboard.inputmethod.keyboard.internal.DrawingProxy;
-import org.dslul.openboard.inputmethod.keyboard.internal.GestureFloatingTextDrawingPreview;
-import org.dslul.openboard.inputmethod.keyboard.internal.GestureTrailsDrawingPreview;
-import org.dslul.openboard.inputmethod.keyboard.internal.KeyDrawParams;
-import org.dslul.openboard.inputmethod.keyboard.internal.KeyPreviewChoreographer;
-import org.dslul.openboard.inputmethod.keyboard.internal.KeyPreviewDrawParams;
-import org.dslul.openboard.inputmethod.keyboard.internal.KeyPreviewView;
-import org.dslul.openboard.inputmethod.keyboard.internal.MoreKeySpec;
-import org.dslul.openboard.inputmethod.keyboard.internal.NonDistinctMultitouchHelper;
-import org.dslul.openboard.inputmethod.keyboard.internal.SlidingKeyInputDrawingPreview;
-import org.dslul.openboard.inputmethod.keyboard.internal.TimerHandler;
-import org.dslul.openboard.inputmethod.latin.R;
-import org.dslul.openboard.inputmethod.latin.RichInputMethodSubtype;
-import org.dslul.openboard.inputmethod.latin.SuggestedWords;
-import org.dslul.openboard.inputmethod.latin.common.Constants;
-import org.dslul.openboard.inputmethod.latin.common.CoordinateUtils;
-import org.dslul.openboard.inputmethod.latin.settings.DebugSettings;
-import org.dslul.openboard.inputmethod.latin.utils.DeviceProtectedUtils;
-import org.dslul.openboard.inputmethod.latin.utils.LanguageOnSpacebarUtils;
-import org.dslul.openboard.inputmethod.latin.utils.TypefaceUtils;
+import com.darshancomputing.openboard.inputmethod.accessibility.AccessibilityUtils;
+import com.darshancomputing.openboard.inputmethod.accessibility.MainKeyboardAccessibilityDelegate;
+import com.darshancomputing.openboard.inputmethod.annotations.ExternallyReferenced;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.DrawingPreviewPlacerView;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.DrawingProxy;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.GestureFloatingTextDrawingPreview;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.GestureTrailsDrawingPreview;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.KeyDrawParams;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.KeyPreviewChoreographer;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.KeyPreviewDrawParams;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.KeyPreviewView;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.MoreKeySpec;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.NonDistinctMultitouchHelper;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.SlidingKeyInputDrawingPreview;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.TimerHandler;
+import com.darshancomputing.openboard.inputmethod.latin.R;
+import com.darshancomputing.openboard.inputmethod.latin.RichInputMethodSubtype;
+import com.darshancomputing.openboard.inputmethod.latin.SuggestedWords;
+import com.darshancomputing.openboard.inputmethod.latin.common.Constants;
+import com.darshancomputing.openboard.inputmethod.latin.common.CoordinateUtils;
+import com.darshancomputing.openboard.inputmethod.latin.settings.DebugSettings;
+import com.darshancomputing.openboard.inputmethod.latin.utils.DeviceProtectedUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.LanguageOnSpacebarUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.TypefaceUtils;
 
 import java.util.WeakHashMap;
 

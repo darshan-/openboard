@@ -1,4 +1,4 @@
-package org.dslul.openboard.inputmethod.dictionarypack
+package com.darshancomputing.openboard.inputmethod.dictionarypack
 
 import android.content.ContentValues
 import android.content.Context
@@ -8,8 +8,8 @@ import android.database.sqlite.SQLiteException
 import android.database.sqlite.SQLiteOpenHelper
 import android.text.TextUtils
 import android.util.Log
-import org.dslul.openboard.inputmethod.latin.R
-import org.dslul.openboard.inputmethod.latin.utils.DebugLogUtils
+import com.darshancomputing.openboard.inputmethod.latin.R
+import com.darshancomputing.openboard.inputmethod.latin.utils.DebugLogUtils
 import java.io.File
 import java.util.*
 

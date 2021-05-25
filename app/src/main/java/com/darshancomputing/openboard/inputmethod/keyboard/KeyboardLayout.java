@@ -14,9 +14,9 @@
  * limitations under the License
  */
 
-package org.dslul.openboard.inputmethod.keyboard;
+package com.darshancomputing.openboard.inputmethod.keyboard;
 
-import org.dslul.openboard.inputmethod.annotations.UsedForTesting;
+import com.darshancomputing.openboard.inputmethod.annotations.UsedForTesting;
 
 import java.util.ArrayList;
 import java.util.List;

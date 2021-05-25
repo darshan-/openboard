@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.keyboard;
+package com.darshancomputing.openboard.inputmethod.keyboard;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -22,8 +22,8 @@ import android.os.Build;
 import android.os.Build.VERSION_CODES;
 import android.util.Log;
 
-import org.dslul.openboard.inputmethod.latin.R;
-import org.dslul.openboard.inputmethod.latin.utils.DeviceProtectedUtils;
+import com.darshancomputing.openboard.inputmethod.latin.R;
+import com.darshancomputing.openboard.inputmethod.latin.utils.DeviceProtectedUtils;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package org.dslul.openboard.inputmethod.accessibility
+package com.darshancomputing.openboard.inputmethod.accessibility
 
 import android.os.SystemClock
 import android.util.Log
@@ -8,10 +8,10 @@ import android.view.accessibility.AccessibilityEvent
 import androidx.core.view.AccessibilityDelegateCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.accessibility.AccessibilityNodeInfoCompat
-import org.dslul.openboard.inputmethod.keyboard.Key
-import org.dslul.openboard.inputmethod.keyboard.KeyDetector
-import org.dslul.openboard.inputmethod.keyboard.Keyboard
-import org.dslul.openboard.inputmethod.keyboard.KeyboardView
+import com.darshancomputing.openboard.inputmethod.keyboard.Key
+import com.darshancomputing.openboard.inputmethod.keyboard.KeyDetector
+import com.darshancomputing.openboard.inputmethod.keyboard.Keyboard
+import com.darshancomputing.openboard.inputmethod.keyboard.KeyboardView
 
 /**
  * This class represents a delegate that can be registered in a class that extends

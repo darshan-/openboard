@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.keyboard.emoji;
+package com.darshancomputing.openboard.inputmethod.keyboard.emoji;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -34,24 +34,24 @@ import android.widget.TabHost.OnTabChangeListener;
 import android.widget.TabWidget;
 import android.widget.TextView;
 
-import org.dslul.openboard.inputmethod.compat.TabHostCompat;
-import org.dslul.openboard.inputmethod.keyboard.Key;
-import org.dslul.openboard.inputmethod.keyboard.KeyboardActionListener;
-import org.dslul.openboard.inputmethod.keyboard.KeyboardLayoutSet;
-import org.dslul.openboard.inputmethod.keyboard.KeyboardView;
-import org.dslul.openboard.inputmethod.keyboard.internal.KeyDrawParams;
-import org.dslul.openboard.inputmethod.keyboard.internal.KeyVisualAttributes;
-import org.dslul.openboard.inputmethod.keyboard.internal.KeyboardIconsSet;
-import org.dslul.openboard.inputmethod.latin.AudioAndHapticFeedbackManager;
-import org.dslul.openboard.inputmethod.latin.R;
-import org.dslul.openboard.inputmethod.latin.RichInputMethodSubtype;
-import org.dslul.openboard.inputmethod.latin.common.Constants;
-import org.dslul.openboard.inputmethod.latin.utils.DeviceProtectedUtils;
-import org.dslul.openboard.inputmethod.latin.utils.ResourceUtils;
+import com.darshancomputing.openboard.inputmethod.compat.TabHostCompat;
+import com.darshancomputing.openboard.inputmethod.keyboard.Key;
+import com.darshancomputing.openboard.inputmethod.keyboard.KeyboardActionListener;
+import com.darshancomputing.openboard.inputmethod.keyboard.KeyboardLayoutSet;
+import com.darshancomputing.openboard.inputmethod.keyboard.KeyboardView;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.KeyDrawParams;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.KeyVisualAttributes;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.KeyboardIconsSet;
+import com.darshancomputing.openboard.inputmethod.latin.AudioAndHapticFeedbackManager;
+import com.darshancomputing.openboard.inputmethod.latin.R;
+import com.darshancomputing.openboard.inputmethod.latin.RichInputMethodSubtype;
+import com.darshancomputing.openboard.inputmethod.latin.common.Constants;
+import com.darshancomputing.openboard.inputmethod.latin.utils.DeviceProtectedUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.ResourceUtils;
 
 import androidx.viewpager2.widget.ViewPager2;
 
-import static org.dslul.openboard.inputmethod.latin.common.Constants.NOT_A_COORDINATE;
+import static com.darshancomputing.openboard.inputmethod.latin.common.Constants.NOT_A_COORDINATE;
 
 /**
  * View class to implement Emoji palettes.
@@ -330,7 +330,7 @@ public final class EmojiPalettesView extends LinearLayout
 
     /**
      * Called from {@link EmojiPageKeyboardView} through
-     * {@link org.dslul.openboard.inputmethod.keyboard.emoji.OnKeyEventListener}
+     * {@link com.darshancomputing.openboard.inputmethod.keyboard.emoji.OnKeyEventListener}
      * interface to handle touch events from non-View-based elements such as Emoji buttons.
      */
     @Override
@@ -341,7 +341,7 @@ public final class EmojiPalettesView extends LinearLayout
 
     /**
      * Called from {@link EmojiPageKeyboardView} through
-     * {@link org.dslul.openboard.inputmethod.keyboard.emoji.OnKeyEventListener}
+     * {@link com.darshancomputing.openboard.inputmethod.keyboard.emoji.OnKeyEventListener}
      * interface to handle touch events from non-View-based elements such as Emoji buttons.
      * This may be called without any prior call to {@link OnKeyEventListener#onPressKey(Key)}.
      */

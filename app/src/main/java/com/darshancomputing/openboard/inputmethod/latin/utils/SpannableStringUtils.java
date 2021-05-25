@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.utils;
+package com.darshancomputing.openboard.inputmethod.latin.utils;
 
 import android.text.Spannable;
 import android.text.SpannableString;
@@ -24,7 +24,7 @@ import android.text.TextUtils;
 import android.text.style.SuggestionSpan;
 import android.text.style.URLSpan;
 
-import org.dslul.openboard.inputmethod.annotations.UsedForTesting;
+import com.darshancomputing.openboard.inputmethod.annotations.UsedForTesting;
 
 import java.util.ArrayList;
 import java.util.regex.Matcher;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.keyboard.internal;
+package com.darshancomputing.openboard.inputmethod.keyboard.internal;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -24,7 +24,7 @@ import android.graphics.PorterDuffXfermode;
 import android.util.AttributeSet;
 import android.widget.RelativeLayout;
 
-import org.dslul.openboard.inputmethod.latin.common.CoordinateUtils;
+import com.darshancomputing.openboard.inputmethod.latin.common.CoordinateUtils;
 
 import java.util.ArrayList;
 

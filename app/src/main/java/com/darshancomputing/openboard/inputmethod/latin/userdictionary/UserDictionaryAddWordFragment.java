@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.userdictionary;
+package com.darshancomputing.openboard.inputmethod.latin.userdictionary;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -29,9 +29,9 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
-import org.dslul.openboard.inputmethod.latin.R;
-import org.dslul.openboard.inputmethod.latin.userdictionary.UserDictionaryAddWordContents.LocaleRenderer;
-import org.dslul.openboard.inputmethod.latin.userdictionary.UserDictionaryLocalePicker.LocationChangedListener;
+import com.darshancomputing.openboard.inputmethod.latin.R;
+import com.darshancomputing.openboard.inputmethod.latin.userdictionary.UserDictionaryAddWordContents.LocaleRenderer;
+import com.darshancomputing.openboard.inputmethod.latin.userdictionary.UserDictionaryLocalePicker.LocationChangedListener;
 
 import java.util.ArrayList;
 import java.util.Locale;

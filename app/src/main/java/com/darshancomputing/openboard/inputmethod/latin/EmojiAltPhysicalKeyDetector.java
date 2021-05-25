@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin;
+package com.darshancomputing.openboard.inputmethod.latin;
 
 import android.content.res.Resources;
 import android.util.Log;
 import android.util.Pair;
 import android.view.KeyEvent;
 
-import org.dslul.openboard.inputmethod.keyboard.KeyboardSwitcher;
-import org.dslul.openboard.inputmethod.latin.settings.Settings;
+import com.darshancomputing.openboard.inputmethod.keyboard.KeyboardSwitcher;
+import com.darshancomputing.openboard.inputmethod.latin.settings.Settings;
 
 import java.util.ArrayList;
 import java.util.HashSet;

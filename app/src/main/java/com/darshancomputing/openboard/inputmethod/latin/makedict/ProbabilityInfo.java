@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.makedict;
+package com.darshancomputing.openboard.inputmethod.latin.makedict;
 
-import org.dslul.openboard.inputmethod.annotations.UsedForTesting;
-import org.dslul.openboard.inputmethod.latin.BinaryDictionary;
-import org.dslul.openboard.inputmethod.latin.utils.CombinedFormatUtils;
+import com.darshancomputing.openboard.inputmethod.annotations.UsedForTesting;
+import com.darshancomputing.openboard.inputmethod.latin.BinaryDictionary;
+import com.darshancomputing.openboard.inputmethod.latin.utils.CombinedFormatUtils;
 
 import java.util.Arrays;
 

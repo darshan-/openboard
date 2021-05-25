@@ -1,4 +1,4 @@
-package org.dslul.openboard.inputmethod.compat
+package com.darshancomputing.openboard.inputmethod.compat
 
 import android.content.pm.PackageInfo
 

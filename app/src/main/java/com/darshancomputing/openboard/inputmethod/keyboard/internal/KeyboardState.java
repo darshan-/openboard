@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.keyboard.internal;
+package com.darshancomputing.openboard.inputmethod.keyboard.internal;
 
 import android.text.TextUtils;
 import android.util.Log;
 
-import org.dslul.openboard.inputmethod.event.Event;
-import org.dslul.openboard.inputmethod.latin.common.Constants;
-import org.dslul.openboard.inputmethod.latin.utils.CapsModeUtils;
-import org.dslul.openboard.inputmethod.latin.utils.RecapitalizeStatus;
+import com.darshancomputing.openboard.inputmethod.event.Event;
+import com.darshancomputing.openboard.inputmethod.latin.common.Constants;
+import com.darshancomputing.openboard.inputmethod.latin.utils.CapsModeUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.RecapitalizeStatus;
 
 /**
  * Keyboard state machine.

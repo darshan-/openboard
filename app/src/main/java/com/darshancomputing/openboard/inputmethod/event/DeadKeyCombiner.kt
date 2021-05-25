@@ -1,8 +1,8 @@
-package org.dslul.openboard.inputmethod.event
+package com.darshancomputing.openboard.inputmethod.event
 
 import android.text.TextUtils
 import android.util.SparseIntArray
-import org.dslul.openboard.inputmethod.latin.common.Constants
+import com.darshancomputing.openboard.inputmethod.latin.common.Constants
 import java.text.Normalizer
 import java.util.*
 

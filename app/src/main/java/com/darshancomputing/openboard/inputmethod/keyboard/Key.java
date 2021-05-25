@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.keyboard;
+package com.darshancomputing.openboard.inputmethod.keyboard;
 
 import android.content.res.TypedArray;
 import android.graphics.Rect;
@@ -23,17 +23,17 @@ import android.graphics.drawable.Drawable;
 import android.text.TextUtils;
 
 import android.util.Log;
-import org.dslul.openboard.inputmethod.keyboard.internal.KeyDrawParams;
-import org.dslul.openboard.inputmethod.keyboard.internal.KeySpecParser;
-import org.dslul.openboard.inputmethod.keyboard.internal.KeyStyle;
-import org.dslul.openboard.inputmethod.keyboard.internal.KeyVisualAttributes;
-import org.dslul.openboard.inputmethod.keyboard.internal.KeyboardIconsSet;
-import org.dslul.openboard.inputmethod.keyboard.internal.KeyboardParams;
-import org.dslul.openboard.inputmethod.keyboard.internal.KeyboardRow;
-import org.dslul.openboard.inputmethod.keyboard.internal.MoreKeySpec;
-import org.dslul.openboard.inputmethod.latin.R;
-import org.dslul.openboard.inputmethod.latin.common.Constants;
-import org.dslul.openboard.inputmethod.latin.common.StringUtils;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.KeyDrawParams;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.KeySpecParser;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.KeyStyle;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.KeyVisualAttributes;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.KeyboardIconsSet;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.KeyboardParams;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.KeyboardRow;
+import com.darshancomputing.openboard.inputmethod.keyboard.internal.MoreKeySpec;
+import com.darshancomputing.openboard.inputmethod.latin.R;
+import com.darshancomputing.openboard.inputmethod.latin.common.Constants;
+import com.darshancomputing.openboard.inputmethod.latin.common.StringUtils;
 
 import java.util.Arrays;
 import java.util.Locale;
@@ -41,11 +41,11 @@ import java.util.Locale;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
-import static org.dslul.openboard.inputmethod.keyboard.internal.KeyboardIconsSet.ICON_UNDEFINED;
-import static org.dslul.openboard.inputmethod.latin.common.Constants.CODE_OUTPUT_TEXT;
-import static org.dslul.openboard.inputmethod.latin.common.Constants.CODE_SHIFT;
-import static org.dslul.openboard.inputmethod.latin.common.Constants.CODE_SWITCH_ALPHA_SYMBOL;
-import static org.dslul.openboard.inputmethod.latin.common.Constants.CODE_UNSPECIFIED;
+import static com.darshancomputing.openboard.inputmethod.keyboard.internal.KeyboardIconsSet.ICON_UNDEFINED;
+import static com.darshancomputing.openboard.inputmethod.latin.common.Constants.CODE_OUTPUT_TEXT;
+import static com.darshancomputing.openboard.inputmethod.latin.common.Constants.CODE_SHIFT;
+import static com.darshancomputing.openboard.inputmethod.latin.common.Constants.CODE_SWITCH_ALPHA_SYMBOL;
+import static com.darshancomputing.openboard.inputmethod.latin.common.Constants.CODE_UNSPECIFIED;
 
 /**
  * Class for describing the position and characteristics of a single key in the keyboard.

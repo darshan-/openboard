@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.makedict;
+package com.darshancomputing.openboard.inputmethod.latin.makedict;
 
-import org.dslul.openboard.inputmethod.latin.makedict.FormatSpec.DictionaryOptions;
-import org.dslul.openboard.inputmethod.latin.makedict.FormatSpec.FormatOptions;
+import com.darshancomputing.openboard.inputmethod.latin.makedict.FormatSpec.DictionaryOptions;
+import com.darshancomputing.openboard.inputmethod.latin.makedict.FormatSpec.FormatOptions;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;

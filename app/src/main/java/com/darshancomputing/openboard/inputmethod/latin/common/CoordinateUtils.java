@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.common;
+package com.darshancomputing.openboard.inputmethod.latin.common;
 
 import javax.annotation.Nonnull;
 

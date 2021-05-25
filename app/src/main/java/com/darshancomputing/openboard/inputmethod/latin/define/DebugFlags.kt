@@ -1,4 +1,4 @@
-package org.dslul.openboard.inputmethod.latin.define
+package com.darshancomputing.openboard.inputmethod.latin.define
 
 import android.content.SharedPreferences
 

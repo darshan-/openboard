@@ -1,16 +1,16 @@
-package org.dslul.openboard.inputmethod.accessibility
+package com.darshancomputing.openboard.inputmethod.accessibility
 
 import android.content.Context
 import android.text.TextUtils
 import android.util.Log
 import android.util.SparseIntArray
 import android.view.inputmethod.EditorInfo
-import org.dslul.openboard.inputmethod.keyboard.Key
-import org.dslul.openboard.inputmethod.keyboard.Keyboard
-import org.dslul.openboard.inputmethod.keyboard.KeyboardId
-import org.dslul.openboard.inputmethod.latin.R
-import org.dslul.openboard.inputmethod.latin.common.Constants
-import org.dslul.openboard.inputmethod.latin.common.StringUtils
+import com.darshancomputing.openboard.inputmethod.keyboard.Key
+import com.darshancomputing.openboard.inputmethod.keyboard.Keyboard
+import com.darshancomputing.openboard.inputmethod.keyboard.KeyboardId
+import com.darshancomputing.openboard.inputmethod.latin.R
+import com.darshancomputing.openboard.inputmethod.latin.common.Constants
+import com.darshancomputing.openboard.inputmethod.latin.common.StringUtils
 import java.util.*
 
 internal class KeyCodeDescriptionMapper private constructor() {

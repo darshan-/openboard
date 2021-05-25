@@ -1,10 +1,10 @@
-package org.dslul.openboard.inputmethod.compat
+package com.darshancomputing.openboard.inputmethod.compat
 
 import android.graphics.Outline
 import android.inputmethodservice.InputMethodService
 import android.view.View
 import android.view.ViewOutlineProvider
-import org.dslul.openboard.inputmethod.compat.ViewOutlineProviderCompatUtils.InsetsUpdater
+import com.darshancomputing.openboard.inputmethod.compat.ViewOutlineProviderCompatUtils.InsetsUpdater
 
 internal object ViewOutlineProviderCompatUtilsLXX {
     fun setInsetsOutlineProvider(view: View): InsetsUpdater {

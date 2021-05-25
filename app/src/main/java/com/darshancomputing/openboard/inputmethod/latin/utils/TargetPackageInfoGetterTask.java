@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.utils;
+package com.darshancomputing.openboard.inputmethod.latin.utils;
 
 import android.content.Context;
 import android.content.pm.PackageInfo;
@@ -22,7 +22,7 @@ import android.content.pm.PackageManager;
 import android.os.AsyncTask;
 import android.util.LruCache;
 
-import org.dslul.openboard.inputmethod.compat.AppWorkaroundsUtils;
+import com.darshancomputing.openboard.inputmethod.compat.AppWorkaroundsUtils;
 
 public final class TargetPackageInfoGetterTask extends
         AsyncTask<String, Void, PackageInfo> {

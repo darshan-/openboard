@@ -1,11 +1,11 @@
-package org.dslul.openboard.inputmethod.accessibility
+package com.darshancomputing.openboard.inputmethod.accessibility
 
 import android.graphics.Rect
 import android.util.Log
 import android.view.MotionEvent
-import org.dslul.openboard.inputmethod.keyboard.KeyDetector
-import org.dslul.openboard.inputmethod.keyboard.MoreKeysKeyboardView
-import org.dslul.openboard.inputmethod.keyboard.PointerTracker
+import com.darshancomputing.openboard.inputmethod.keyboard.KeyDetector
+import com.darshancomputing.openboard.inputmethod.keyboard.MoreKeysKeyboardView
+import com.darshancomputing.openboard.inputmethod.keyboard.PointerTracker
 
 /**
  * This class represents a delegate that can be registered in [MoreKeysKeyboardView] to

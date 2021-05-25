@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.keyboard.emoji;
+package com.darshancomputing.openboard.inputmethod.keyboard.emoji;
 
 import android.content.SharedPreferences;
 import android.content.res.Resources;
@@ -26,12 +26,12 @@ import android.util.Log;
 import android.util.Pair;
 
 import androidx.core.graphics.PaintCompat;
-import org.dslul.openboard.inputmethod.keyboard.Key;
-import org.dslul.openboard.inputmethod.keyboard.Keyboard;
-import org.dslul.openboard.inputmethod.keyboard.KeyboardId;
-import org.dslul.openboard.inputmethod.keyboard.KeyboardLayoutSet;
-import org.dslul.openboard.inputmethod.latin.R;
-import org.dslul.openboard.inputmethod.latin.settings.Settings;
+import com.darshancomputing.openboard.inputmethod.keyboard.Key;
+import com.darshancomputing.openboard.inputmethod.keyboard.Keyboard;
+import com.darshancomputing.openboard.inputmethod.keyboard.KeyboardId;
+import com.darshancomputing.openboard.inputmethod.keyboard.KeyboardLayoutSet;
+import com.darshancomputing.openboard.inputmethod.latin.R;
+import com.darshancomputing.openboard.inputmethod.latin.settings.Settings;
 
 import java.util.ArrayList;
 import java.util.Collections;

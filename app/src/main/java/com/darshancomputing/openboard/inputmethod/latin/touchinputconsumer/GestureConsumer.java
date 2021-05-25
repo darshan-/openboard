@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.touchinputconsumer;
+package com.darshancomputing.openboard.inputmethod.latin.touchinputconsumer;
 
 import android.view.inputmethod.EditorInfo;
 
-import org.dslul.openboard.inputmethod.keyboard.Keyboard;
-import org.dslul.openboard.inputmethod.latin.DictionaryFacilitator;
-import org.dslul.openboard.inputmethod.latin.SuggestedWords;
-import org.dslul.openboard.inputmethod.latin.common.InputPointers;
-import org.dslul.openboard.inputmethod.latin.inputlogic.PrivateCommandPerformer;
+import com.darshancomputing.openboard.inputmethod.keyboard.Keyboard;
+import com.darshancomputing.openboard.inputmethod.latin.DictionaryFacilitator;
+import com.darshancomputing.openboard.inputmethod.latin.SuggestedWords;
+import com.darshancomputing.openboard.inputmethod.latin.common.InputPointers;
+import com.darshancomputing.openboard.inputmethod.latin.inputlogic.PrivateCommandPerformer;
 
 import java.util.Locale;
 

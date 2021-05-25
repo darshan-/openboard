@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin;
+package com.darshancomputing.openboard.inputmethod.latin;
 
 import android.Manifest;
 import android.content.Context;
@@ -22,18 +22,18 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.util.LruCache;
 
-import org.dslul.openboard.inputmethod.annotations.UsedForTesting;
-import org.dslul.openboard.inputmethod.keyboard.Keyboard;
-import org.dslul.openboard.inputmethod.latin.NgramContext.WordInfo;
-import org.dslul.openboard.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
-import org.dslul.openboard.inputmethod.latin.common.ComposedData;
-import org.dslul.openboard.inputmethod.latin.common.Constants;
-import org.dslul.openboard.inputmethod.latin.common.StringUtils;
-import org.dslul.openboard.inputmethod.latin.permissions.PermissionsUtil;
-import org.dslul.openboard.inputmethod.latin.personalization.UserHistoryDictionary;
-import org.dslul.openboard.inputmethod.latin.settings.SettingsValuesForSuggestion;
-import org.dslul.openboard.inputmethod.latin.utils.ExecutorUtils;
-import org.dslul.openboard.inputmethod.latin.utils.SuggestionResults;
+import com.darshancomputing.openboard.inputmethod.annotations.UsedForTesting;
+import com.darshancomputing.openboard.inputmethod.keyboard.Keyboard;
+import com.darshancomputing.openboard.inputmethod.latin.NgramContext.WordInfo;
+import com.darshancomputing.openboard.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
+import com.darshancomputing.openboard.inputmethod.latin.common.ComposedData;
+import com.darshancomputing.openboard.inputmethod.latin.common.Constants;
+import com.darshancomputing.openboard.inputmethod.latin.common.StringUtils;
+import com.darshancomputing.openboard.inputmethod.latin.permissions.PermissionsUtil;
+import com.darshancomputing.openboard.inputmethod.latin.personalization.UserHistoryDictionary;
+import com.darshancomputing.openboard.inputmethod.latin.settings.SettingsValuesForSuggestion;
+import com.darshancomputing.openboard.inputmethod.latin.utils.ExecutorUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.SuggestionResults;
 
 import java.io.File;
 import java.lang.reflect.InvocationTargetException;

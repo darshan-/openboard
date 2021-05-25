@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.makedict;
+package com.darshancomputing.openboard.inputmethod.latin.makedict;
 
 /**
  * Simple exception thrown when a file format is not recognized.

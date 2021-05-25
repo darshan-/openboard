@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.keyboard.internal;
+package com.darshancomputing.openboard.inputmethod.keyboard.internal;
 
 public final class TypingTimeRecorder {
     private final int mStaticTimeThresholdAfterFastTyping; // msec

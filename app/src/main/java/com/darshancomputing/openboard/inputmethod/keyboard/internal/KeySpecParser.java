@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.keyboard.internal;
+package com.darshancomputing.openboard.inputmethod.keyboard.internal;
 
-import org.dslul.openboard.inputmethod.latin.common.Constants;
-import org.dslul.openboard.inputmethod.latin.common.StringUtils;
+import com.darshancomputing.openboard.inputmethod.latin.common.Constants;
+import com.darshancomputing.openboard.inputmethod.latin.common.StringUtils;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
-import static org.dslul.openboard.inputmethod.latin.common.Constants.CODE_OUTPUT_TEXT;
-import static org.dslul.openboard.inputmethod.latin.common.Constants.CODE_UNSPECIFIED;
+import static com.darshancomputing.openboard.inputmethod.latin.common.Constants.CODE_OUTPUT_TEXT;
+import static com.darshancomputing.openboard.inputmethod.latin.common.Constants.CODE_UNSPECIFIED;
 
 /**
  * The string parser of the key specification.

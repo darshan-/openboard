@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.keyboard.internal;
+package com.darshancomputing.openboard.inputmethod.keyboard.internal;
 
 import android.util.Log;
 import android.view.MotionEvent;
 
-import org.dslul.openboard.inputmethod.keyboard.Key;
-import org.dslul.openboard.inputmethod.keyboard.KeyDetector;
-import org.dslul.openboard.inputmethod.keyboard.PointerTracker;
-import org.dslul.openboard.inputmethod.latin.common.CoordinateUtils;
+import com.darshancomputing.openboard.inputmethod.keyboard.Key;
+import com.darshancomputing.openboard.inputmethod.keyboard.KeyDetector;
+import com.darshancomputing.openboard.inputmethod.keyboard.PointerTracker;
+import com.darshancomputing.openboard.inputmethod.latin.common.CoordinateUtils;
 
 public final class NonDistinctMultitouchHelper {
     private static final String TAG = NonDistinctMultitouchHelper.class.getSimpleName();

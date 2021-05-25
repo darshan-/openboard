@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.setup;
+package com.darshancomputing.openboard.inputmethod.latin.setup;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -23,7 +23,7 @@ import android.graphics.Path;
 import android.util.AttributeSet;
 import android.view.View;
 
-import org.dslul.openboard.inputmethod.latin.R;
+import com.darshancomputing.openboard.inputmethod.latin.R;
 
 import androidx.core.view.ViewCompat;
 

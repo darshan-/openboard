@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.settings;
+package com.darshancomputing.openboard.inputmethod.latin.settings;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -27,11 +27,11 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-import org.dslul.openboard.inputmethod.latin.R;
-import org.dslul.openboard.inputmethod.latin.utils.ApplicationUtils;
-import org.dslul.openboard.inputmethod.latin.utils.FeedbackUtils;
-import org.dslul.openboard.inputmethod.latin.utils.JniUtils;
-import org.dslul.openboard.inputmethodcommon.InputMethodSettingsFragment;
+import com.darshancomputing.openboard.inputmethod.latin.R;
+import com.darshancomputing.openboard.inputmethod.latin.utils.ApplicationUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.FeedbackUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.JniUtils;
+import com.darshancomputing.openboard.inputmethodcommon.InputMethodSettingsFragment;
 
 public final class SettingsFragment extends InputMethodSettingsFragment {
     // We don't care about menu grouping.

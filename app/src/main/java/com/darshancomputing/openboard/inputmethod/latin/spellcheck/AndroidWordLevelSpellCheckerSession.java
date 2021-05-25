@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.spellcheck;
+package com.darshancomputing.openboard.inputmethod.latin.spellcheck;
 
 import android.content.ContentResolver;
 import android.database.ContentObserver;
@@ -27,18 +27,18 @@ import android.util.LruCache;
 import android.view.textservice.SuggestionsInfo;
 import android.view.textservice.TextInfo;
 
-import org.dslul.openboard.inputmethod.keyboard.Keyboard;
-import org.dslul.openboard.inputmethod.latin.NgramContext;
-import org.dslul.openboard.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
-import org.dslul.openboard.inputmethod.latin.WordComposer;
-import org.dslul.openboard.inputmethod.latin.common.Constants;
-import org.dslul.openboard.inputmethod.latin.common.LocaleUtils;
-import org.dslul.openboard.inputmethod.latin.common.StringUtils;
-import org.dslul.openboard.inputmethod.latin.define.DebugFlags;
-import org.dslul.openboard.inputmethod.latin.utils.BinaryDictionaryUtils;
-import org.dslul.openboard.inputmethod.latin.utils.ScriptUtils;
-import org.dslul.openboard.inputmethod.latin.utils.StatsUtils;
-import org.dslul.openboard.inputmethod.latin.utils.SuggestionResults;
+import com.darshancomputing.openboard.inputmethod.keyboard.Keyboard;
+import com.darshancomputing.openboard.inputmethod.latin.NgramContext;
+import com.darshancomputing.openboard.inputmethod.latin.SuggestedWords.SuggestedWordInfo;
+import com.darshancomputing.openboard.inputmethod.latin.WordComposer;
+import com.darshancomputing.openboard.inputmethod.latin.common.Constants;
+import com.darshancomputing.openboard.inputmethod.latin.common.LocaleUtils;
+import com.darshancomputing.openboard.inputmethod.latin.common.StringUtils;
+import com.darshancomputing.openboard.inputmethod.latin.define.DebugFlags;
+import com.darshancomputing.openboard.inputmethod.latin.utils.BinaryDictionaryUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.ScriptUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.StatsUtils;
+import com.darshancomputing.openboard.inputmethod.latin.utils.SuggestionResults;
 
 import java.util.ArrayList;
 import java.util.List;

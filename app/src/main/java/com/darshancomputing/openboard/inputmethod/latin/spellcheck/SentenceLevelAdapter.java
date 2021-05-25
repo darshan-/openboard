@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.dslul.openboard.inputmethod.latin.spellcheck;
+package com.darshancomputing.openboard.inputmethod.latin.spellcheck;
 
 import android.annotation.TargetApi;
 import android.content.res.Resources;
@@ -23,10 +23,10 @@ import android.view.textservice.SentenceSuggestionsInfo;
 import android.view.textservice.SuggestionsInfo;
 import android.view.textservice.TextInfo;
 
-import org.dslul.openboard.inputmethod.compat.TextInfoCompatUtils;
-import org.dslul.openboard.inputmethod.latin.common.Constants;
-import org.dslul.openboard.inputmethod.latin.settings.SpacingAndPunctuations;
-import org.dslul.openboard.inputmethod.latin.utils.RunInLocale;
+import com.darshancomputing.openboard.inputmethod.compat.TextInfoCompatUtils;
+import com.darshancomputing.openboard.inputmethod.latin.common.Constants;
+import com.darshancomputing.openboard.inputmethod.latin.settings.SpacingAndPunctuations;
+import com.darshancomputing.openboard.inputmethod.latin.utils.RunInLocale;
 
 import java.util.ArrayList;
 import java.util.Locale;
