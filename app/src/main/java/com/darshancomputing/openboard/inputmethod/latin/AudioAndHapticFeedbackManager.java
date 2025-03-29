@@ -93,19 +93,25 @@ public final class AudioAndHapticFeedbackManager {
         final int sound;
         switch (code) {
         case Constants.CODE_DELETE:
-            sound = AudioManager.FX_KEYPRESS_DELETE;
+            //sound = AudioManager.FX_KEYPRESS_DELETE;
+            sound = AudioManager.FX_KEY_CLICK;
             break;
         case Constants.CODE_ENTER:
-            sound = AudioManager.FX_KEYPRESS_RETURN;
+            //sound = AudioManager.FX_KEYPRESS_RETURN;
+            sound = AudioManager.FX_KEY_CLICK;
             break;
         case Constants.CODE_SPACE:
-            sound = AudioManager.FX_KEYPRESS_SPACEBAR;
+            //sound = AudioManager.FX_KEYPRESS_SPACEBAR;
+            sound = AudioManager.FX_KEY_CLICK;
             break;
         default:
-            sound = AudioManager.FX_KEYPRESS_STANDARD;
+            //sound = AudioManager.FX_KEYPRESS_STANDARD;
+            sound = AudioManager.FX_KEY_CLICK;
             break;
         }
-        mAudioManager.playSoundEffect(sound, mSettingsValues.mKeypressSoundVolume);
+        //mAudioManager.playSoundEffect(sound, mSettingsValues.mKeypressSoundVolume);
+        mAudioManager.playSoundEffect(sound, -1);
+        //mAudioManager.playSoundEffect(sound);
     }
 
     public void performHapticFeedback(final View viewToPerformHapticFeedbackOn) {
